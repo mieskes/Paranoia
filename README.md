@@ -7,6 +7,7 @@ The documentation contains the transcription guidelines, while the code contains
 
 Please cite our LREC publication when using this material:
 
+```
 @InProceedings{mieskes(2018),
   author = 	 {Margot Mieskes and Andreas Stiegelmayr},
   title = 	 {Preparing Data from Psychotherapy for Natural Language Processing},
@@ -17,6 +18,9 @@ Please cite our LREC publication when using this material:
   organization = {ELRA},
   note = 	 {to appear},
 }
+```
 
-The transcription guidelines are licensed under the CC-BY-SA-4.0 license. 
-The code is licensed under the GNU GNU General Public License v3.0.
+## License
+
+- The transcription guidelines are licensed under the CC-BY-SA-4.0 license. 
+- The code is licensed under the GNU GNU General Public License v3.0.
