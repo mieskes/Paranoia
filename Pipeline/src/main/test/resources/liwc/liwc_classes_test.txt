@@ -1,0 +1,7 @@
+1	Pronoun
+2	I
+3	We
+4	Self
+5	You
+6	Other
+7	Negate

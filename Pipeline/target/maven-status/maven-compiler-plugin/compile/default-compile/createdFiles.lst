@@ -1,0 +1,16 @@
+de\hda\paranoia\nlp\pipeline\customComponent\DurationFeatureExtractor.class
+de\hda\paranoia\nlp\pipeline\customComponent\SpeechBreakFeatureExtractor.class
+de\hda\paranoia\nlp\pipeline\customComponent\TextLine.class
+de\hda\paranoia\nlp\pipeline\customComponent\ClassifyTabReader.class
+de\hda\paranoia\nlp\pipeline\customComponent\DialectFeatureExtractor.class
+de\hda\paranoia\nlp\pipeline\customComponent\SocialNoiseFeatureExtractor.class
+de\hda\paranoia\nlp\pipeline\main\Pipeline.class
+de\hda\paranoia\nlp\pipeline\customComponent\EmotionFeatureExtractor.class
+de\hda\paranoia\nlp\pipeline\customComponent\LiwcClasses.class
+de\hda\paranoia\nlp\pipeline\customComponent\StutterFeatureExtractor.class
+de\hda\paranoia\nlp\pipeline\customComponent\TCComponants.class
+de\hda\paranoia\nlp\pipeline\customComponent\ClassifyTabReader$1.class
+de\hda\paranoia\nlp\pipeline\customComponent\SentimentFeatureExtractor.class
+de\hda\paranoia\nlp\pipeline\customComponent\NoiseFeatureExtractor.class
+de\hda\paranoia\nlp\pipeline\customComponent\TextFileMerge.class
+de\hda\paranoia\nlp\pipeline\customComponent\LiwcWords.class

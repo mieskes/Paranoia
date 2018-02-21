@@ -1,0 +1,13 @@
+de\hda\paranoia\nlp\pipeline\customComponent\SentimentFeatureExtractorTest.class
+de\hda\paranoia\nlp\pipeline\customComponent\StutterFeatureExtractorTest.class
+de\hda\paranoia\nlp\pipeline\customComponent\SpeechBreakFeatureExtractorTest.class
+de\hda\paranoia\nlp\pipeline\customComponent\EmotionFeatureExtractorTest.class
+de\hda\paranoia\nlp\pipeline\customComponent\ClassifyTabReaderTest.class
+de\hda\paranoia\nlp\pipeline\customComponent\NoiseFeatureExtractorTest.class
+de\hda\paranoia\nlp\pipeline\customComponent\TCComponantsTest.class
+de\hda\paranoia\nlp\pipeline\customComponent\SocialNoiseFeatureExtractorTest.class
+de\hda\paranoia\nlp\pipeline\customComponent\DurationFeatureExtractorTest.class
+de\hda\paranoia\nlp\pipeline\customComponent\LiwcWordsTest.class
+de\hda\paranoia\nlp\pipeline\customComponent\LiwcClassesTest.class
+de\hda\paranoia\nlp\pipeline\customComponent\DialectFeatureExtractorTest.class
+de\hda\paranoia\nlp\pipeline\main\PipelineTest.class

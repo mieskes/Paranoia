@@ -1,0 +1,7 @@
+ab	1	5	2
+abbreche	6
+abbrich\w*	3
+abend\w*	1
+abendessen	7	2
+aber	1	2	3
+abermals	7

@@ -89,7 +89,7 @@ public class SocialNoiseFeatureExtractor extends FeatureExtractorResource_ImplBa
     private double relSn;
 
     /**
-     * Contains the relative frequency of social noise.
+     * Contains number of exclamation.
      */
     private int exclamation;
 

@@ -64,14 +64,13 @@ public class main
                     "org.apache.uima.util.impl.Log4jLogger_impl");
 
             /**
-             * Load custom designed UIMA and DKPro Components
+             * Loads custom designed UIMA and DKPro Components
              */
             tcComponents.createExtractFeaturesConnector();
 
             /**
              * Initialization of .txt Reader for file classification
              */
-
             elanTabReader = createReaderDescription(ClassifyDocumentReader.class,
                     ClassifyDocumentReader.PARAM_ELAN_TAB_FILE, "src/main/resources/sessions/"
             );
@@ -79,7 +78,6 @@ public class main
             /**
              * Initialization of OpenNlpSegmenter
              */
-
             tokenizer = createEngineDescription(OpenNlpSegmenter.class,
                     OpenNlpSegmenter.PARAM_LANGUAGE, "de"
             );
@@ -87,7 +85,6 @@ public class main
             /**
              * Initialization of OpenNlpPosTagger
              */
-
             posTagger = createEngineDescription(OpenNlpPosTagger.class,
                     OpenNlpPosTagger.PARAM_LANGUAGE, "de"
             );

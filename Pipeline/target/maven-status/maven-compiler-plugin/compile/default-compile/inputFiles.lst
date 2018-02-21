@@ -1,0 +1,15 @@
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\DialectFeatureExtractor.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\LiwcWords.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\main\Pipeline.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\StutterFeatureExtractor.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\TextFileMerge.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\EmotionFeatureExtractor.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\NoiseFeatureExtractor.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\SocialNoiseFeatureExtractor.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\SentimentFeatureExtractor.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\LiwcClasses.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\ClassifyTabReader.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\DurationFeatureExtractor.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\TCComponants.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\SpeechBreakFeatureExtractor.java
+C:\Users\Andreas\Desktop\Pipeline\src\main\java\de\hda\paranoia\nlp\pipeline\customComponent\TextLine.java

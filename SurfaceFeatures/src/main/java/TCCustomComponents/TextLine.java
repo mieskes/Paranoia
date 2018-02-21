@@ -7,22 +7,22 @@ public class TextLine
 {
 
     /**
-     *
+     * Contains Speaker
      */
     private String speaker;
 
     /**
-     *
+     * Contains begin of speech
      */
     private double begin;
 
     /**
-     *
+     * Contains spoken text
      */
     private String text;
 
     /**
-     *
+     * Contains duration of speech
      */
     private double duration;
 
