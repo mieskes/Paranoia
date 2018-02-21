@@ -39,7 +39,7 @@ import java.util.*;
 public class ClassifyDocumentReader extends JCasCollectionReader_ImplBase implements TCReaderSingleLabel {
 
     /**
-     *
+     * The String is added to features as description of the path to elanTabFile.
      */
     public static final String PARAM_ELAN_TAB_FILE = "elanTabFile";
 
@@ -51,45 +51,43 @@ public class ClassifyDocumentReader extends JCasCollectionReader_ImplBase implem
     private String elanTabFile;
 
     /**
-     *
+     * Contains date as String.
      */
-    String date;
+    private String date;
 
     /**
-     *
+     * Contains documents Text.
      */
-    List<List<TextLine>> docContainer = new ArrayList<List<TextLine>>();
+    private List<List<TextLine>> docContainer = new ArrayList<List<TextLine>>();
 
     /**
-     *
+     * Contains document textlines.
      */
     private List<TextLine> result = new ArrayList<TextLine>();
 
     /**
-     *
-     */
-    private List<String> docText = new ArrayList<String>();
-
-    /**
-     *
-     */
-    private double segmentDuration;
-
-    /**
-     *
+     * Contains offset for classication.
      */
     private int offset;
 
     /**
-     *
+     * Contains URL of the filedirecory.
      */
     private URL resourceUrl;
 
     /**
-     *
+     * Contains .txt Files.
      */
     private List<File> files;
 
+    /**
+     * Contains duration of the segment.
+     */
+    private long segmentDuration;
+    /**
+     * Reads the files from the directory and loads them for further processing.
+     * @param context
+     */
     @Override
     public void initialize(UimaContext context)
             throws ResourceInitializationException {
@@ -135,6 +133,12 @@ public class ClassifyDocumentReader extends JCasCollectionReader_ImplBase implem
         }
     }
 
+    /**
+     * checks if there is a next Element
+     * @return offset
+     * @throws IOException
+     * @throws CollectionException
+     */
     @Override
     public boolean hasNext()
             throws IOException, CollectionException {
@@ -142,6 +146,12 @@ public class ClassifyDocumentReader extends JCasCollectionReader_ImplBase implem
         return offset < files.size();
     }
 
+    /**
+     * Saves the file data into a JCas
+     * @param aJCas Contains the classified texts from the .txt files.
+     * @throws IOException
+     * @throws CollectionException
+     */
     @Override
     public void getNext(JCas aJCas)
             throws IOException, CollectionException {
@@ -185,13 +195,23 @@ public class ClassifyDocumentReader extends JCasCollectionReader_ImplBase implem
         offset++;
     }
 
+    /**
+     *
+     * @param aJCas Contains the classified texts from the .txt files.
+     * @return name of the Class for classification.
+     * @throws CollectionException
+     */
     @Override
-    public String getTextClassificationOutcome(JCas jcas)
+    public String getTextClassificationOutcome(JCas aJCas)
             throws CollectionException {
 
         return files.get(offset).getParentFile().getName();
     }
 
+    /**
+     *
+     * @return progress
+     */
     public Progress[] getProgress() {
         return new Progress[]
                 {
