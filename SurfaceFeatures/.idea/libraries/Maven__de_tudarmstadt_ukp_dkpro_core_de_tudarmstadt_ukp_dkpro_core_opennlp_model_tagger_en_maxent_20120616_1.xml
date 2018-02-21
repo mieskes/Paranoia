@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.opennlp-model-tagger-en-maxent:20120616.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.opennlp-model-tagger-en-maxent/20120616.1/de.tudarmstadt.ukp.dkpro.core.opennlp-model-tagger-en-maxent-20120616.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.opennlp-model-tagger-en-maxent/20120616.1/de.tudarmstadt.ukp.dkpro.core.opennlp-model-tagger-en-maxent-20120616.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/tudarmstadt/ukp/dkpro/core/de.tudarmstadt.ukp.dkpro.core.opennlp-model-tagger-en-maxent/20120616.1/de.tudarmstadt.ukp.dkpro.core.opennlp-model-tagger-en-maxent-20120616.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

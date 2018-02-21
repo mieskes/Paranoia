@@ -1,0 +1,2 @@
+﻿Patient	Patient	00:00:08.403	8.403	00:00:08.781	8.781	00:00:00.378	0.378	Ja.
+Patient	Patient	00:00:14.743	14.743	00:00:17.414	17.414	00:00:02.671	2.671	Also, ich hab's (hd: hab es) immer wieder im Kopf gehabt?

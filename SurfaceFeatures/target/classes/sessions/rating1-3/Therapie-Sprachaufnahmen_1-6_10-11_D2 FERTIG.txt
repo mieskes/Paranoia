@@ -1,0 +1,606 @@
+Therapeut	Therapeut	00:00:01.511	1.511	00:00:06.367	6.367	00:00:04.856	4.856	  [Geräusch:00:00:00] [/Geräusch:00:00:04] Ja super, was ham (hd: haben) Sie denn gemacht.
+Therapeut	Therapeut	00:00:11.647	11.647	00:00:12.264	12.264	00:00:00.617	0.617	Mm-hm.
+Therapeut	Therapeut	00:00:14.520	14.52	00:00:15.573	15.573	00:00:01.053	1.053	Mmh.
+Therapeut	Therapeut	00:00:20.370	20.37	00:00:22.323	22.323	00:00:01.953	1.953	Oh! Mm-hm, und was lernen Sie?
+Therapeut	Therapeut	00:00:22.926	22.926	00:00:23.681	23.681	00:00:00.755	0.755	Aha.
+Therapeut	Therapeut	00:00:26.598	26.598	00:00:27.389	27.389	00:00:00.791	0.791	Mm-hm.
+Therapeut	Therapeut	00:00:31.772	31.772	00:00:32.544	32.544	00:00:00.772	0.772	Aha.
+Therapeut	Therapeut	00:00:36.094	36.094	00:00:37.051	37.051	00:00:00.957	0.957	Schön.
+Therapeut	Therapeut	00:00:39.022	39.022	00:00:42.777	42.777	00:00:03.755	3.755	Und ähm, das Eingeklammerte is (hd: ist) das was Sie nich (hd: nicht) gemacht haben?
+Therapeut	Therapeut	00:00:43.455	43.455	00:00:46.683	46.683	00:00:03.228	3.228	Mm-hm. (..)
+Therapeut	Therapeut	00:00:48.665	48.665	00:00:49.375	49.375	00:00:00.710	0.71	Mm-hm.
+Therapeut	Therapeut	00:00:52.563	52.563	00:00:53.015	53.015	00:00:00.452	0.452	Mmh.
+Therapeut	Therapeut	00:00:59.046	59.046	00:00:59.514	59.514	00:00:00.468	0.468	Mm-hm.
+Therapeut	Therapeut	00:01:01.108	61.108	00:01:01.566	61.566	00:00:00.458	0.458	Mm-hm.
+Therapeut	Therapeut	00:01:04.029	64.029	00:01:08.529	68.529	00:00:04.500	4.5	Mm-hm. Ach genau, und dann hatten wir ja dieses verregnete Wochenende, am Samstag.
+Therapeut	Therapeut	00:01:09.689	69.689	00:01:10.928	70.928	00:00:01.239	1.239	Da war dann, ähm.
+Therapeut	Therapeut	00:01:11.095	71.095	00:01:11.928	71.928	00:00:00.833	0.833	
+Therapeut	Therapeut	00:01:12.261	72.261	00:01:14.746	74.746	00:00:02.485	2.485	Das / Programm, aber er war nicht lustig?
+Therapeut	Therapeut	00:01:19.892	79.892	00:01:21.214	81.214	00:00:01.322	1.322	Aah, ok.
+Therapeut	Therapeut	00:01:25.738	85.738	00:01:32.428	92.428	00:00:06.690	6.69	Mmh. (..) Aber Sie haben d- die Indoor-Aktivität, erfüllt. Und ausgeführt.
+Therapeut	Therapeut	00:01:33.150	93.15	00:01:36.317	96.317	00:00:03.167	3.167	Genau, und am Sonntag war's (hd: war es) ja dann 's (hd: das) Wetter auch wieder 'n (hd: ein) bisschen schöner.
+Therapeut	Therapeut	00:01:39.753	99.753	00:01:40.817	100.817	00:00:01.064	1.064	Oh:, schade.
+Therapeut	Therapeut	00:01:44.874	104.874	00:01:45.626	105.626	00:00:00.752	0.752	Aah.
+Therapeut	Therapeut	00:01:46.880	106.88	00:01:47.437	107.437	00:00:00.557	0.557	Mm-hm.
+Therapeut	Therapeut	00:01:50.127	110.127	00:01:50.809	110.809	00:00:00.682	0.682	Aha.
+Therapeut	Therapeut	00:01:51.812	111.812	00:01:52.450	112.45	00:00:00.638	0.638	Ja.
+Therapeut	Therapeut	00:01:56.260	116.26	00:01:56.865	116.865	00:00:00.605	0.605	Mm-hm.
+Therapeut	Therapeut	00:01:57.801	117.801	00:01:58.866	118.866	00:00:01.065	1.065	Aah, sehr gut.
+Therapeut	Therapeut	00:01:59.300	119.3	00:02:07.000	127.0	00:00:07.700	7.7	Ja. Ja, und was ich ja ganz spannend f- finde is (hd: ist), wenn man sich noch Ihre Stimmungs:-Einschätzungen daneben anschaut.
+Therapeut	Therapeut	00:02:15.460	135.46	00:02:16.166	136.166	00:00:00.706	0.706	Mm-hm.
+Therapeut	Therapeut	00:02:17.817	137.817	00:02:18.500	138.5	00:00:00.683	0.683	Mm-hm.
+Therapeut	Therapeut	00:02:20.130	140.13	00:02:23.201	143.201	00:00:03.071	3.071	Ja, das is (hd: ist) ja hier so durchgängig das Muster, ne? Dass es.
+Therapeut	Therapeut	00:02:23.634	143.634	00:02:38.873	158.873	00:00:15.239	15.239	So mit Minus: oder so mittelmäßig anfängt, und dann aber. (..) Gut, hier war der Film jetz (hd: jetzt) nich (hd: nicht) so lustig, vielleicht lag's (hd: lag es) [lacht:00:00:00] / / daran. [/lacht:00:00:02] Ähm. Aber dann, sich hier ja überall verbessert, ne.
+Therapeut	Therapeut	00:02:39.873	159.873	00:02:48.105	168.105	00:00:08.232	8.232	Ja. (...) Das heißt so die Aktivität und die Stimmung hängt zusammen.
+Therapeut	Therapeut	00:02:49.962	169.962	00:02:50.817	170.817	00:00:00.855	0.855	Mmh.
+Therapeut	Therapeut	00:02:54.679	174.679	00:02:55.301	175.301	00:00:00.622	0.622	Mm-hm.
+Therapeut	Therapeut	00:02:58.085	178.085	00:02:58.533	178.533	00:00:00.448	0.448	Mmh.
+Therapeut	Therapeut	00:03:03.063	183.063	00:03:03.642	183.642	00:00:00.579	0.579	Mm-hm.
+Therapeut	Therapeut	00:03:04.166	184.166	00:03:16.912	196.912	00:00:12.746	12.746	Ja. (...) Genau, da sind Sie auch nich (hd: nicht) die Einzige. 'S (hd: dass) man sich erst so dazu überwinden muss, und dann aber, danach doch den positiven [Geräusch:00:00:00] [/Geräusch:00:00:00] Effekt hat, wenn man sich dann überwunden hat.
+Therapeut	Therapeut	00:03:18.015	198.015	00:03:28.995	208.995	00:00:10.980	10.98	Schön. (....) Und jetz (hd: jetzt) haben Sie gesagt nur der Donnerstag is (hd: ist) so 'n (hd: ein) bisschen rausgefallen. Was war denn an dem Donnerstag so schwierig?
+Therapeut	Therapeut	00:03:32.484	212.484	00:03:33.214	213.214	00:00:00.730	0.73	Mmh.
+Therapeut	Therapeut	00:03:37.215	217.215	00:03:38.103	218.103	00:00:00.888	0.888	Mmh-hm.
+Therapeut	Therapeut	00:03:44.348	224.348	00:03:44.936	224.936	00:00:00.588	0.588	Mmh-hm.
+Therapeut	Therapeut	00:03:46.880	226.88	00:03:47.928	227.928	00:00:01.048	1.048	Mm-hm.
+Therapeut	Therapeut	00:03:53.849	233.849	00:03:54.507	234.507	00:00:00.658	0.658	Mm-hm.
+Therapeut	Therapeut	00:03:56.628	236.628	00:03:57.817	237.817	00:00:01.189	1.189	Aah. 
+Therapeut	Therapeut	00:04:09.143	249.143	00:04:09.833	249.833	00:00:00.690	0.69	Mm-hm.
+Therapeut	Therapeut	00:04:12.063	252.063	00:04:13.341	253.341	00:00:01.278	1.278	Mmh, das heißt.
+Therapeut	Therapeut	00:04:18.580	258.58	00:04:19.119	259.119	00:00:00.539	0.539	Mm-hm.
+Therapeut	Therapeut	00:04:22.814	262.814	00:04:23.468	263.468	00:00:00.654	0.654	Aah.
+Therapeut	Therapeut	00:04:24.989	264.989	00:04:32.308	272.308	00:00:07.319	7.319	Ok das heißt, ähm. Das sieht hier jetz (hd: jetzt) so einfach aus, aber, äh das is (hd: ist) jeses Mal vorher Arbeit gewesen, drüber nachdenken.
+Therapeut	Therapeut	00:04:33.035	273.035	00:04:36.883	276.883	00:00:03.848	3.848	Ähm, und worüber denken Sie nach? Wann Sie gehn (hd: gehen) oder ob sie gehn (hd: gehen), oder.
+Therapeut	Therapeut	00:04:38.721	278.721	00:04:39.650	279.65	00:00:00.929	0.929	Mm-hm.
+Therapeut	Therapeut	00:04:45.373	285.373	00:04:46.076	286.076	00:00:00.703	0.703	Hmm.
+Therapeut	Therapeut	00:04:53.063	293.063	00:05:02.396	302.396	00:00:09.333	9.333	Hmm. Und das heißt, genau hier wo wir auch keine Außenativität hatten, ähm. (.) Da war's (hd: war es) dann auch einfach besonders schwierig.
+Therapeut	Therapeut	00:05:07.198	307.198	00:05:07.809	307.809	00:00:00.611	0.611	Mm-hm.
+Therapeut	Therapeut	00:05:11.730	311.73	00:05:13.119	313.119	00:00:01.389	1.389	Mmh. Mm-hm.
+Therapeut	Therapeut	00:05:15.735	315.735	00:05:16.471	316.471	00:00:00.736	0.736	Mm-hm.
+Therapeut	Therapeut	00:05:21.342	321.342	00:05:37.714	337.714	00:00:16.372	16.372	Hm-mh. Würd's (hd: würde es) Ihnen denn dann helfen, wenn Sie sich das. Ähm, auch so Aktivitäten die Sie alleine machen schon vorher mit ner (hd: einer) Uhrzeit festlegen. Dass Sie am Abend vorher sich schon denken morgen um. Zehn Uhr, geh (hd: gehe) ich einkaufen.
+Therapeut	Therapeut	00:05:40.787	340.787	00:05:50.246	350.246	00:00:09.459	9.459	Dass Sie sich da schon selbst so n- nen (hd: einen) Stundenplan machen, und nich (hd: nicht) nur. Was Sie machen sondern auch die Uhrzeit schon gleich mit festlegen.
+Therapeut	Therapeut	00:05:56.349	356.349	00:06:04.079	364.079	00:00:07.730	7.73	Mmh. [Stimmen von draußen:00:00:00] [/Stimmen von draußen:00:00:05] Das heißt das könnte noch ne (hd: eine) Modifikation sein.
+Therapeut	Therapeut	00:06:04.675	364.675	00:06:07.069	367.069	00:00:02.394	2.394	Von dem: Plan.
+Therapeut	Therapeut	00:06:09.810	369.81	00:06:14.873	374.873	00:00:05.063	5.063	Mmh. (....)
+Therapeut	Therapeut	00:06:17.895	377.895	00:06:22.006	382.006	00:00:04.111	4.111	Ja super, ich find (hd: finde) das auch toll, dass Sie sich das hier schon gleich jetz (hd: jetzt) verändert haben.
+Therapeut	Therapeut	00:06:29.377	389.377	00:06:30.123	390.123	00:00:00.746	0.746	Mmh.
+Therapeut	Therapeut	00:06:34.575	394.575	00:06:35.492	395.492	00:00:00.917	0.917	Mm-hm.
+Therapeut	Therapeut	00:06:39.253	399.253	00:06:50.571	410.571	00:00:11.318	11.318	Mm-hm. (..) Mmh, vielleicht könnten Sie sich auch noch so 'n (hd: ein) paar. Aktivitäten, aufschreiben, die Sie dann immer so in petto haben, für Indoor und Outdoor?
+Therapeut	Therapeut	00:06:51.174	411.174	00:07:08.587	428.587	00:00:17.413	17.413	D- [lacht:00:00:00] [/lacht:00:00:00] Die jederzeit durchf- führbar sind für solche Tage. Wenn Sie dann da überlegen was mach (hd: mache) ich denn jetz (hd: jetzt) heute, un (hd: und) mach (hd: mache) ich was oder mach (hd: mache) ich nichts, dass Sie dann. Ne (hd: eine) Liste haben. Ähm. (.) Und dann. Is (hd: ist) Ihre Aufgabe, sich von dieser Liste jetz(hd: jetzt) eine Sache auszusuchen und die durchzuführen.
+Therapeut	Therapeut	00:07:11.488	431.488	00:07:40.684	460.684	00:00:29.196	29.196	Ich kann Ihnen dafür auch [Geräusche:00:00:00] was mitgeben. (....) Mmh. [/Geräusche:00:00:05] [Papier raschelt, Ordner schnappt auf und zu:00:00:00] Und zwar. (p:00:00:06) Genau, manchmal. Is (hd: ist) es ja auch ganz hilfreich, um ein bisschen. Neue Ideen noch zu bekommen. Und zwar is (hd: ist) das so eine. Liste. [Papier raschelt, Ordner schnappt auf und zu:00:00:17] Ähm:. Mit positiven Aktivitäten.
+Therapeut	Therapeut	00:07:41.174	461.174	00:08:09.555	489.555	00:00:28.381	28.381	Und die is (hd: ist) geordnet einmal nach [Papier raschelt:00:00:00] Kontakt und Geselligkeit:, oder auch dann für sich sein. Ähm. Sich im Freien aufhalten, oder Hobbys ausführen. [/Papier raschelt:00:00:11] Ähm, vielleicht könnten Sie sich die nochmal dann zuhause durchlesen, (.) und dann hier ankreuzen was davon machen Sie gerne. (.) Mmh. Damit Sie das noch so in petto haben für so Tage, wo dann kein Termin is (hd: ist), dass dann Ihre Aufgabe is (hd: ist), etwas von der Liste auszuführen.
+Therapeut	Therapeut	00:08:10.357	490.357	00:08:11.984	491.984	00:00:01.627	1.627	Könnten Sie sich das vorstellen?
+Therapeut	Therapeut	00:08:15.718	495.718	00:08:16.933	496.933	00:00:01.215	1.215	Mm-hm.
+Therapeut	Therapeut	00:08:21.574	501.574	00:08:37.627	517.627	00:00:16.053	16.053	Also ich find (hd: finde) das manchma (hd: manchmal) auch ganz nett, [Papier raschelt:00:00:00] da kriegt man immer so andere Ideen, wo man vielleicht selber nich (hd: nicht) drauf gekommen is (hd: ist), [/Papier raschelt:00:00:04] oder drauf gekommen wär (hd: wäre). (.) Ähm. (...) Beispiel ein Fußbad nehmen. Das kann ja auch schön entspannend sein.
+Therapeut	Therapeut	00:08:41.809	521.809	00:08:55.182	535.182	00:00:13.373	13.373	Oder mal wieder einen Brief schreiben an jemanden. (.) Oder das Zimmer umdekorieren, oder sich irgendwo schöne Blumen kaufen. (.) Ähm. Genau, dann würd (hd: würde) ich Ihnen das einfach schon mal mitgeben als erste Hausaufgabe.
+Therapeut	Therapeut	00:08:55.834	535.834	00:09:00.285	540.285	00:00:04.451	4.451	[Papier raschelt:00:00:00] [Papier raschelt:00:00:05]
+Therapeut	Therapeut	00:09:01.667	541.667	00:09:02.436	542.436	00:00:00.769	0.769	Mm-hm.
+Therapeut	Therapeut	00:09:16.793	556.793	00:09:17.507	557.507	00:00:00.714	0.714	Mm-hm.
+Therapeut	Therapeut	00:09:32.723	572.723	00:09:33.555	573.555	00:00:00.832	0.832	Mm-hm.
+Therapeut	Therapeut	00:09:42.165	582.165	00:09:42.690	582.69	00:00:00.525	0.525	Hmm.
+Therapeut	Therapeut	00:09:44.951	584.951	00:09:45.530	585.53	00:00:00.579	0.579	Hmm.
+Therapeut	Therapeut	00:10:00.006	600.006	00:10:00.789	600.789	00:00:00.783	0.783	Mm-hm.
+Therapeut	Therapeut	00:10:03.174	603.174	00:10:03.777	603.777	00:00:00.603	0.603	Hmm.
+Therapeut	Therapeut	00:10:06.438	606.438	00:10:07.563	607.563	00:00:01.125	1.125	Mm-hm, genau.
+Therapeut	Therapeut	00:10:08.646	608.646	00:10:18.706	618.706	00:00:10.060	10.06	Ja, das is (hd: ist) ja dann auch. Gut, wenn Sie wissen dass das bei Ihnen funktioniert, um sich dann wieder so ne (hd: eine) Struktur aufzubauen. (.) Und wie is (hd: ist) das jetz (hd: jetzt) im Moment mit dem Lernen, oder dem.
+Therapeut	Therapeut	00:10:20.776	620.776	00:10:21.785	621.785	00:00:01.009	1.009	Aah.[lacht:00:00:00] [/lacht:00:00:00]
+Therapeut	Therapeut	00:10:24.756	624.756	00:10:25.505	625.505	00:00:00.749	0.749	Mm-hm.
+Therapeut	Therapeut	00:10:28.111	628.111	00:10:28.841	628.841	00:00:00.730	0.73	Mm-hm.
+Therapeut	Therapeut	00:10:32.881	632.881	00:10:33.396	633.396	00:00:00.515	0.515	Mmh.
+Therapeut	Therapeut	00:10:38.488	638.488	00:10:39.375	639.375	00:00:00.887	0.887	Mm-hm.
+Therapeut	Therapeut	00:10:42.531	642.531	00:10:54.349	654.349	00:00:11.818	11.818	Hmm, aber das, heißt da. War dann wieder so dieses, Gespür für sich selbst da, jetz (hd: jetzt) im Moment. Brauch (hd: brauche) ich eher ne (hd: eine) Auszeit, und das Lernen is (hd: ist) jetz (hd: jtzt) grad (hd: gerade) nicht das was ich brauche, und dann ham (hd: haben) Sie sich die Auszeit genommen.
+Therapeut	Therapeut	00:10:56.365	656.365	00:10:58.238	658.238	00:00:01.873	1.873	'S (hd: Das) gehört ja auch zur Achtsamkeit.
+Therapeut	Therapeut	00:10:58.373	658.373	00:11:06.523	666.523	00:00:08.150	8.15	'S( hd: das) achtsiem- achtsam wahrnehmen, was brauch (hd: brauche) ich gerade, was tut mir gerade gut. Ähm. (.) Und das dann so umzusetzen.
+Therapeut	Therapeut	00:11:11.801	671.801	00:11:12.396	672.396	00:00:00.595	0.595	Mmh.
+Therapeut	Therapeut	00:11:14.230	674.23	00:11:14.832	674.832	00:00:00.602	0.602	Mmh.
+Therapeut	Therapeut	00:11:18.998	678.998	00:11:19.523	679.523	00:00:00.525	0.525	Mmh.
+Therapeut	Therapeut	00:11:22.423	682.423	00:11:24.603	684.603	00:00:02.180	2.18	Is (hd: ist) das, also da- inhaltlich nich (hd: nicht) so das.
+Therapeut	Therapeut	00:11:25.343	685.343	00:11:27.976	687.976	00:00:02.633	2.633	Was man dann so geballt brauchen kann manchmal.
+Therapeut	Therapeut	00:11:28.420	688.42	00:11:29.501	689.501	00:00:01.081	1.081	Mmh.
+Therapeut	Therapeut	00:11:41.341	701.341	00:11:42.174	702.174	00:00:00.833	0.833	Aah.
+Therapeut	Therapeut	00:11:44.068	704.068	00:11:44.789	704.789	00:00:00.721	0.721	Mm-hm.
+Therapeut	Therapeut	00:11:45.881	705.881	00:11:46.539	706.539	00:00:00.658	0.658	Mm-hm.
+Therapeut	Therapeut	00:11:50.733	710.733	00:11:51.438	711.438	00:00:00.705	0.705	Mm-hm.
+Therapeut	Therapeut	00:11:53.142	713.142	00:11:53.976	713.976	00:00:00.834	0.834	Mm-hm.
+Therapeut	Therapeut	00:11:54.801	714.801	00:11:55.708	715.708	00:00:00.907	0.907	Ja.
+Therapeut	Therapeut	00:12:00.505	720.505	00:12:09.138	729.138	00:00:08.633	8.633	Ok das heißt was s- was sind denn unsre (hd: unsere) F- Fa- Fazits, gibt's (hd: gibt es) das, Mehrzahl von Fazit. [lacht:00:00:00] [/lacht:00:00:00] Unsre (hd: unsere) Fazite.
+Therapeut	Therapeut	00:12:09.492	729.492	00:12:14.127	734.127	00:00:04.635	4.635	[lacht:00:00:00] [/lacht:00:00:00] Ähm. Aus dieser Übung jetz (hd: jetzt) mit dem Wochenplan, was nehmen Sie denn für sich mit?
+Therapeut	Therapeut	00:12:19.566	739.566	00:12:20.355	740.355	00:00:00.789	0.789	Mm-hm.
+Therapeut	Therapeut	00:12:24.599	744.599	00:12:25.127	745.127	00:00:00.528	0.528	Hmm.
+Therapeut	Therapeut	00:12:31.087	751.087	00:12:33.142	753.142	00:00:02.055	2.055	Mm-hm. (.) Ja.
+Therapeut	Therapeut	00:12:43.690	763.69	00:12:44.357	764.357	00:00:00.667	0.667	Mm-hm.
+Therapeut	Therapeut	00:12:51.305	771.305	00:12:52.113	772.113	00:00:00.808	0.808	Mm-hm.
+Therapeut	Therapeut	00:12:55.841	775.841	00:12:56.428	776.428	00:00:00.587	0.587	Mm-hm.
+Therapeut	Therapeut	00:12:56.982	776.982	00:12:57.452	777.452	00:00:00.470	0.47	Mmh.
+Therapeut	Therapeut	00:13:09.774	789.774	00:13:10.436	790.436	00:00:00.662	0.662	Mm-hm.
+Therapeut	Therapeut	00:13:12.574	792.574	00:13:13.281	793.281	00:00:00.707	0.707	Mm-hm.
+Therapeut	Therapeut	00:13:15.499	795.499	00:13:42.216	822.216	00:00:26.717	26.717	Super, dann ähm:. Überleg (hd: überlege) ich nur grade (hd: gerade), wo ich noch so einen Vordruck für Sie herbekomme, ähm. [Papier raschelt:00:00:00] (...) Den hab (hd: habe) ich jetz (hd: jetzt) vorher nich (hd: nicht) kopiert. Das heißt ich würde dann gleich die Frau [/Papier raschelt:00:00:07] Wend noch fragen. (.) Ähm, [Geräusche:00:00:00] ob sie mir da noch mal (..) 'n (hd: einen Ausdruck geben kann, ansonsten müssten Sie sich den mal selbst [/Geräusche:00:00:06] schreiben [lacht:00:00:00] bis nächste Woche. [/lacht:00:00:01]
+Therapeut	Therapeut	00:13:43.551	823.551	00:13:53.731	833.731	00:00:10.180	10.18	Bis ich N- Nachschub besorgt habe. Ja schön. Aber das freut mich wenn Ihnen das hilft. Das heißt, ähm. (.) Die fünftausend Schritte is (hd: ist) jetz: (hd: jetzt).
+Therapeut	Therapeut	00:13:54.582	834.582	00:13:56.164	836.164	00:00:01.582	1.582	Ihr Ziel jeden Tag.
+Therapeut	Therapeut	00:13:56.834	836.834	00:14:06.462	846.462	00:00:09.628	9.628	Ähm. (.) Und dann, ähm. W- würden Sie sich das selbst dann. Die nächste Woche planen, oder sollen wir das zusammen machen?
+Therapeut	Therapeut	00:14:17.477	857.477	00:14:18.895	858.895	00:00:01.418	1.418	Was Ihnen lieber is (hd: ist).
+Therapeut	Therapeut	00:14:28.925	868.925	00:14:29.582	869.582	00:00:00.657	0.657	Mm-hm.
+Therapeut	Therapeut	00:14:30.442	870.442	00:14:31.180	871.18	00:00:00.738	0.738	Mmh.
+Therapeut	Therapeut	00:14:34.931	874.931	00:14:35.758	875.758	00:00:00.827	0.827	Mm-hm.
+Therapeut	Therapeut	00:14:44.755	884.755	00:14:45.287	885.287	00:00:00.532	0.532	Mm-hm.
+Therapeut	Therapeut	00:14:47.735	887.735	00:14:48.379	888.379	00:00:00.644	0.644	Mmh.
+Therapeut	Therapeut	00:14:53.885	893.885	00:14:55.471	895.471	00:00:01.586	1.586	Mm-hm. Ja.
+Therapeut	Therapeut	00:14:59.418	899.418	00:15:07.885	907.885	00:00:08.467	8.467	Genau und dann is (hd: ist) auch immer gut, ähm. (.) Jetz (hd: jetzt) grad (hd: gerade) wo's (hd: wo es) [räuspert sich:00:00:00] [/räuspert sich:00:00:00] herbstlicher wird, so die Indoor und Outdoor-Variante zu haben.
+Therapeut	Therapeut	00:15:08.287	908.287	00:15:10.666	910.666	00:00:02.379	2.379	Dass Sie immer so 'n (hd: einen) Ausweich-Plan haben.
+Therapeut	Therapeut	00:15:12.644	912.644	00:15:24.517	924.517	00:00:11.873	11.873	Ähm. Und hier war ja jetz (hd: jetzt) dieses Ziel die dreitausend Schritte zu gehen. Ähm. Hat nich (hd: nicht) genug gezogen, so als Ziel um Sie aus dem Haus zu locken.
+Therapeut	Therapeut	00:15:24.679	924.679	00:15:35.390	935.39	00:00:10.711	10.711	Das heißt Sie ja das wär (hd: wäre) gut wenn Sie jeden Tag. Irgendne (hd: irgendeine) Aktivität haben (.) wo Sie rausgehen müssen. Ähm. Weil das alleine jetz (hd: jetzt) hier nich (hd: nicht) so.
+Therapeut	Therapeut	00:15:36.505	936.505	00:15:38.747	938.747	00:00:02.242	2.242	Gezogen hat. [lacht:00:00:00] [/lacht:00:00:01]
+Therapeut	Therapeut	00:15:42.221	942.221	00:15:44.218	944.218	00:00:01.997	1.997	Aah. [lacht:00:00:00] [/lacht:00:00:01]
+Therapeut	Therapeut	00:15:44.793	944.793	00:15:47.046	947.046	00:00:02.253	2.253	Ja das kommt auch mal vor, aber. Ähm.
+Therapeut	Therapeut	00:15:47.252	947.252	00:15:58.080	958.08	00:00:10.828	10.828	Is (hd: ist) ja gut dann wenn wir wissen, dass. (.) Dass es n- noch hilfreicher für Sie is (hd: ist) wenn Sie auch wirklich irgendwas, draußen auch zu tun haben und nich (hd: nicht) nur die dreitausend Schritte zu gehen.
+Therapeut	Therapeut	00:15:59.110	959.11	00:16:00.922	960.922	00:00:01.812	1.812	[räustert sich:00:00:00] [/räuspert sich:00:00:00] Was Sie dann aus dem Haus lockt.
+Therapeut	Therapeut	00:16:09.712	969.712	00:16:10.390	970.39	00:00:00.678	0.678	Mm-hm.
+Therapeut	Therapeut	00:16:15.176	975.176	00:16:36.356	996.356	00:00:21.180	21.18	Mm-hm, vielleicht könnten Sie das dann auch mit irgendwas verbinden, ähm. (..) Vielleicht auch mit ner (hd: einer) Achtsamkeitsübung, so dreitausend Schritte:, oder heute geh (hd: gehe) ich, äh, geh (hd: gehe) ich diese Schritte und konzentrier (hd: konzentriere) mich. Ähm. (.) Auf das Hören zum Beispiel, was hör ich heute Schönes draußen.
+Therapeut	Therapeut	00:16:37.314	997.314	00:17:09.551	1029.551	00:00:32.237	32.237	Oder, ähm, Sie gehen raus und. Konzentrieren sich dann auf's (hd: auf das) Sehen, was. Was gibt's (hd: gibt es) heute Schönes zu sehen was mir auffällt. Also seh (hd: sehe) ich jetz (hd: jetzt) irgendwo, ein Eichhörnchen laufen oder seh (hd: sehe) ich irgendwo, [lacht:00:00:00] [/lacht:00:00:01] eine schöne Blume stehen, die mir gefällt. Oder, was wenn ich jetz (hd: jetzt) meine Kamera dabei hätte würde ich heute fotografieren wenn ich draußen unterwegs bin. Dass Sie das noch mit- mit irgendso 'ner (hd: einer) Neben- (.) Naja, is (hd: ist) ja dann eigentlich keine Nebentätigkeit, aber nochmal mit irgendsowas anderem verknüpfen und es nich (hd: nicht) nur das Gehen is (hd: ist), sondern.
+Therapeut	Therapeut	00:17:11.349	1031.349	00:17:13.486	1033.486	00:00:02.137	2.137	Da war ja noch irgendne (hd: irgendeine) andere Aufgabe haben.
+Therapeut	Therapeut	00:17:18.620	1038.62	00:17:22.367	1042.367	00:00:03.747	3.747	Oder tatsächlich mit, Ihrer. Sie fotografieren doch gerne oder, täusch (hd: täusche) ich mich?
+Therapeut	Therapeut	00:17:22.409	1042.409	00:17:29.340	1049.34	00:00:06.931	6.931	Ja, oder mit Ihrer Kamera. [Stimme im Hintergrund:00:00:00] Sich sagen jetz (hd: jetzt) geh (hd: gehe) ich raus und. [Stimme im Hintergrund:00:00:02] Mach (hd: mache) das. Bild des Tages für mich oder so.
+Therapeut	Therapeut	00:17:30.882	1050.882	00:17:41.046	1061.046	00:00:10.164	10.164	Genau, den Schnappschuss des Tages. [holt Luft:00:00:00] [/holt Luft:00:00:01] Oder heut (hd: heute) fotografier ich irgendwie alles was rot is (hd: ist) oder alles, was grün is (hd: ist), oder. Sich halt irgendsone (irgendso eine) Aufgabe da zu suchen.
+Therapeut	Therapeut	00:17:52.508	1072.508	00:17:53.298	1073.298	00:00:00.790	0.79	Hmm.
+Therapeut	Therapeut	00:17:55.793	1075.793	00:17:56.701	1076.701	00:00:00.908	0.908	Hmm.
+Therapeut	Therapeut	00:18:01.287	1081.287	00:18:01.804	1081.804	00:00:00.517	0.517	Ja, muss.
+Therapeut	Therapeut	00:18:02.466	1082.466	00:18:14.373	1094.373	00:00:11.907	11.907	Ja und so lernt man ja auch. Dazu. (..) Also dass Sie dann noch (.) ähm. Also manchmal gibt's (hd: gibt es) ja auch einfach so Tage, ne, dass. Ansonsten hat das ja super funktioniert.
+Therapeut	Therapeut	00:18:17.232	1097.232	00:18:27.069	1107.069	00:00:09.837	9.837	Ja. (..) Okay das heißt dann: (.) planen Sie sich die Woche, selbst und gucken sich noch die Liste dazu an.
+Therapeut	Therapeut	00:18:27.551	1107.551	00:18:35.459	1115.459	00:00:07.908	7.908	Und dann gucken wir in der nächsten Woche (.) wie die zweite (.) Wochenplan-Woche so funktioniert hat.
+Therapeut	Therapeut	00:18:46.210	1126.21	00:18:47.080	1127.08	00:00:00.870	0.87	Mm-hm. [lacht:00:00:00] [/lacht:00:00:00]
+Therapeut	Therapeut	00:18:49.896	1129.896	00:18:52.931	1132.931	00:00:03.035	3.035	Ja das is (hd: ist) normal. [lacht:00:00:00] [/lacht:00:00:03]
+Therapeut	Therapeut	00:19:00.735	1140.735	00:19:13.957	1153.957	00:00:13.222	13.222	Okay und dann hatten Sie ja das letzte Mal gesagt, ähm. [schnalzt mit der Zunge:00:00:00] [/schnalzt mit der Zunge:00:00:00] Dass Sie dann, wenn Sie das mit der radikalen Akzeptanz und der Achtsamkeit so machen, sich fragen und was kommt denn aber dann, so, was mach (hd: mache) ich denn dann?
+Therapeut	Therapeut	00:19:17.298	1157.298	00:19:18.199	1158.199	00:00:00.901	0.901	Mm-hm.
+Therapeut	Therapeut	00:19:21.358	1161.358	00:19:21.968	1161.968	00:00:00.610	0.61	Mm-hm.
+Therapeut	Therapeut	00:19:22.528	1162.528	00:19:23.115	1163.115	00:00:00.587	0.587	Mm-hm.
+Therapeut	Therapeut	00:19:25.417	1165.417	00:19:26.315	1166.315	00:00:00.898	0.898	Mm-hm.
+Therapeut	Therapeut	00:19:30.319	1170.319	00:19:33.069	1173.069	00:00:02.750	2.75	Haben Sie da nochmal 'n (hd: ein) Beispiel sich aufgeschrieben, oder.
+Therapeut	Therapeut	00:19:39.563	1179.563	00:19:40.425	1180.425	00:00:00.862	0.862	Mm-hm.
+Therapeut	Therapeut	00:19:50.310	1190.31	00:19:51.138	1191.138	00:00:00.828	0.828	Mmh.
+Therapeut	Therapeut	00:19:56.800	1196.8	00:19:57.982	1197.982	00:00:01.182	1.182	Mm-hm.
+Therapeut	Therapeut	00:20:06.753	1206.753	00:20:07.402	1207.402	00:00:00.649	0.649	Mm-hm.
+Therapeut	Therapeut	00:20:08.847	1208.847	00:20:10.397	1210.397	00:00:01.550	1.55	Und wie versteht der das?
+Therapeut	Therapeut	00:20:12.585	1212.585	00:20:13.235	1213.235	00:00:00.650	0.65	Mm-hm.
+Therapeut	Therapeut	00:20:23.134	1223.134	00:20:24.078	1224.078	00:00:00.944	0.944	Mm-hm.
+Therapeut	Therapeut	00:20:32.970	1232.97	00:20:33.837	1233.837	00:00:00.867	0.867	Mm-hm.
+Therapeut	Therapeut	00:20:39.382	1239.382	00:20:43.034	1243.034	00:00:03.652	3.652	Mm-hm. (.) Das macht schon traurig.
+Therapeut	Therapeut	00:20:43.909	1243.909	00:20:44.988	1244.988	00:00:01.079	1.079	Mm-hm.
+Therapeut	Therapeut	00:20:57.532	1257.532	00:20:58.333	1258.333	00:00:00.801	0.801	Mm-hm.
+Therapeut	Therapeut	00:21:00.342	1260.342	00:21:01.526	1261.526	00:00:01.184	1.184	Mm-hm.
+Therapeut	Therapeut	00:21:11.234	1271.234	00:21:11.950	1271.95	00:00:00.716	0.716	Mm-hm.
+Therapeut	Therapeut	00:21:13.275	1273.275	00:21:13.954	1273.954	00:00:00.679	0.679	Mm-hm.
+Therapeut	Therapeut	00:21:16.886	1276.886	00:22:15.689	1335.689	00:00:58.803	58.803	Mm-hm. Genau, da is (hd: ist) die Situation. Können Sie in dem Fall nich (hd: nicht) verändern. Oder irgendwie aus der Situation gehen, weil die. Die hat ja auch schon stattgefunden so. Ähm. (.) Und ich kann natürlich nachvollziehen dass das auch wirklich was is (hd: ist) was einen traurig macht. / Wenn da. Jetz (hd: jetzt) in den beiden Situationen. Einfach der Kontakt abgebrochen wurde, Sie auch nich (hd: nicht) so genau wissen warum. (.) Ähm, und dann so der Gedanke, s- ich fühl (hd: fühle) mich, irgendwie stehen gelassen. (.) Dass das natürlich traurig macht (.) das kann ich gut verstehen. (.) Mmh. (....) Jetz (hd: jetzt) könnten wir ja einmal überlegen, ähm. (...) Also es sind ja oft auch die. Ham (hd: haben) Sie hier nochmal was aufgeschrieben, weil ich hier grad (hd: gerade) so ein A seh (hd: sehe)? 
+Therapeut	Therapeut	00:22:16.344	1336.344	00:22:18.275	1338.275	00:00:01.931	1.931	Ach so, das: war noch mein Blatt.
+Therapeut	Therapeut	00:22:19.287	1339.287	00:22:35.724	1355.724	00:00:16.437	16.437	[Rascheln:00:00:00] Mm-hm, aber das können wir, [/Rascheln:00:00:01] ähm, gut nehmen, das heißt. Ähm, wir ham (hd: haben) einmal die Situation, so die Anderen haben den Kontakt abgebrochen. Und ähm (..) was sind dann Ihre Gedanken dazu, die Sie dann so traurig machen?
+Therapeut	Therapeut	00:22:40.106	1360.106	00:22:41.164	1361.164	00:00:01.058	1.058	Mm-hm.
+Therapeut	Therapeut	00:22:49.208	1369.208	00:22:50.164	1370.164	00:00:00.956	0.956	Mm-hm.
+Therapeut	Therapeut	00:23:00.918	1380.918	00:23:01.750	1381.75	00:00:00.832	0.832	Mm-hm.
+Therapeut	Therapeut	00:23:08.648	1388.648	00:23:09.739	1389.739	00:00:01.091	1.091	Mm-hm.
+Therapeut	Therapeut	00:23:19.638	1399.638	00:23:20.459	1400.459	00:00:00.821	0.821	Mm-hm.
+Therapeut	Therapeut	00:23:23.685	1403.685	00:23:53.977	1433.977	00:00:30.292	30.292	Ja. Das heißt wenn man auch so ne (hd: eine), Erklärung dafür hätte, dann is (hd: ist) es ja auch manchmal leichter noch mit Sachen abzuschließen. Aber da so dieses, warum und Sie kriegen keine Antwort drauf (hd: darauf). (.) Mh. (p:00:00:10) Das heißt, is (hd: ist) es din dem- dann in dem Moment f- für Sie hilfreich, wenn Sie sich fragen warum war das so.
+Therapeut	Therapeut	00:24:06.061	1446.061	00:24:06.941	1446.941	00:00:00.880	0.88	Mmh.
+Therapeut	Therapeut	00:24:11.667	1451.667	00:25:20.184	1520.184	00:01:08.517	68.517	Mm-hm. (p:00:00:08) Das heißt da- zu dem Chor, da haben Sie auch so gar keinen Kontakt mehr, seitdem. Mmh. (..) Könnten Sie sich denn vorstellen, die (.) Ähm. (.) Also man kann ja einmal diese radikale Akzeptanz auch auf Situationen anwenden, die man nich (hd: nicht) verändern kann. (.) Das heißt, die Situation, is (hd: ist) so, die macht traurig, das is (hd: ist) irgendwie doof gelaufen. Aber an der Situation können Sie nix (hd: nichts) verändern. (...) Und wenn Sie drüber (hd: darüber) nachdenken führt das. (.) Zu viel Traurigkeit. Und Sie kommen auch zu keiner Lösung weil Sie kriegen keine Antwort drauf (hd: darauf). [Geräusche:00:00:00] [/Geräusche:00:00:01] (.....) Das heißt, einmal. Wär (hd. wäre) die Möglichkeit dann diese Situation radikal zu akzeptieren dass das jetz (hd: jetzt) so is (hd: ist).
+Therapeut	Therapeut	00:25:33.896	1533.896	00:25:59.184	1559.184	00:00:25.288	25.288	Dann wär (hd: wäre) ja auch ne (hd: eine) variante, ähm. (..) Sie ham (hd: habe) ja auch gesagt so Ihr Kopf versteht das so. (...) Hatten Sie vorhin gesagt. Ähm. (..) Das heißt gibt es denn da einen. Einen Gedanken:. (...) Oder welcher Gedanke is (hd: ist) das wenn Sie sagen Ihr Kopf versteht das.
+Therapeut	Therapeut	00:26:04.783	1564.783	00:26:05.665	1565.665	00:00:00.882	0.882	Mm-hm.
+Therapeut	Therapeut	00:26:08.617	1568.617	00:26:09.535	1569.535	00:00:00.918	0.918	Mm-hm.
+Therapeut	Therapeut	00:26:12.985	1572.985	00:26:14.029	1574.029	00:00:01.044	1.044	Mm-hm.
+Therapeut	Therapeut	00:26:26.188	1586.188	00:26:31.503	1591.503	00:00:05.315	5.315	Okay das heißt Ihr Kopf is (hd: ist) schon so an dieser radikalen Akzeptanz dran. Nur das Gefühl zieht nich (hd: nicht) nach.
+Therapeut	Therapeut	00:26:32.046	1592.046	00:26:34.222	1594.222	00:00:02.176	2.176	/ sagt, das is (hd: ist) jetz (hd: jetzt) so.
+Therapeut	Therapeut	00:26:36.413	1596.413	00:26:36.781	1596.781	00:00:00.368	0.368	Mmh.
+Therapeut	Therapeut	00:26:41.046	1601.046	00:26:41.729	1601.729	00:00:00.683	0.683	Mmh.
+Therapeut	Therapeut	00:26:42.020	1602.02	00:27:13.551	1633.551	00:00:31.531	31.531	Ja. (p:00:00:07) Is (hd: ist) es denn so dass SIe dann. Ähm. (...) Dass es Sie verletzt, dass es einfach so abrupt abgebrochen wurde. (..) Dass Ihnen da jetz (hd: jetzt) was fehlt. So dass Sie sagen Sie vermissen da jetz (hd: jetzt) irgendwas. Was Sie dadurch hatten. (..) War jetz (hd: jetzt) nich (hd: nicht) mehr da is (hd: ist).
+Therapeut	Therapeut	00:27:27.984	1647.984	00:27:28.974	1648.974	00:00:00.990	0.99	Mm-hm.
+Therapeut	Therapeut	00:27:35.719	1655.719	00:27:36.470	1656.47	00:00:00.751	0.751	Mm-hm.
+Therapeut	Therapeut	00:28:05.895	1685.895	00:28:06.985	1686.985	00:00:01.090	1.09	Mm-hm.
+Therapeut	Therapeut	00:28:11.138	1691.138	00:28:11.831	1691.831	00:00:00.693	0.693	Mm-hm.
+Therapeut	Therapeut	00:28:20.797	1700.797	00:28:21.754	1701.754	00:00:00.957	0.957	Hmm.
+Therapeut	Therapeut	00:28:29.911	1709.911	00:28:31.246	1711.246	00:00:01.335	1.335	Mm-hm.
+Therapeut	Therapeut	00:28:34.856	1714.856	00:28:42.973	1722.973	00:00:08.117	8.117	'S (hd: das) heißt vielleicht is (hd: ist) es auch besser so. (....) Weiß man nich (hd: nicht).
+Therapeut	Therapeut	00:28:47.977	1727.977	00:28:48.931	1728.931	00:00:00.954	0.954	Mm-hm.
+Therapeut	Therapeut	00:28:57.383	1737.383	00:28:58.241	1738.241	00:00:00.858	0.858	Mm-hm.
+Therapeut	Therapeut	00:29:00.611	1740.611	00:29:01.697	1741.697	00:00:01.086	1.086	Mm-hm.
+Therapeut	Therapeut	00:29:10.368	1750.368	00:29:22.310	1762.31	00:00:11.942	11.942	Mm-hm. (.....) Das heißt so von heute auf morgen so komplett. Gar kein Kontakt mehr.
+Therapeut	Therapeut	00:29:25.459	1765.459	00:29:26.630	1766.63	00:00:01.171	1.171	Mm-hm.
+Therapeut	Therapeut	00:29:33.293	1773.293	00:29:33.881	1773.881	00:00:00.588	0.588	Mmh.
+Therapeut	Therapeut	00:29:34.949	1774.949	00:29:35.614	1775.614	00:00:00.665	0.665	Mm-hm.
+Therapeut	Therapeut	00:29:39.325	1779.325	00:29:40.310	1780.31	00:00:00.985	0.985	Mm-hm.
+Therapeut	Therapeut	00:29:51.650	1791.65	00:29:52.459	1792.459	00:00:00.809	0.809	Mm-hm.
+Therapeut	Therapeut	00:29:54.783	1794.783	00:29:55.471	1795.471	00:00:00.688	0.688	Mh.
+Therapeut	Therapeut	00:30:02.841	1802.841	00:30:03.962	1803.962	00:00:01.121	1.121	Mm-hm.
+Therapeut	Therapeut	00:30:07.987	1807.987	00:30:08.882	1808.882	00:00:00.895	0.895	Mm-hm.
+Therapeut	Therapeut	00:30:15.494	1815.494	00:30:20.351	1820.351	00:00:04.857	4.857	Das heißt so gar nich (hd: nicht) wahrgenommen dann, da einfach ignoriert, dass Sie geschrieben haben.
+Therapeut	Therapeut	00:30:22.860	1822.86	00:30:23.665	1823.665	00:00:00.805	0.805	Mmh.
+Therapeut	Therapeut	00:30:26.636	1826.636	00:30:27.757	1827.757	00:00:01.121	1.121	Mm-hm.
+Therapeut	Therapeut	00:30:36.166	1836.166	00:31:34.218	1894.218	00:00:58.052	58.052	
+Therapeut	Therapeut	00:31:38.528	1898.528	00:31:45.436	1905.436	00:00:06.908	6.908	
+Therapeut	Therapeut	00:32:16.559	1936.559	00:32:17.565	1937.565	00:00:01.006	1.006	
+Therapeut	Therapeut	00:32:29.513	1949.513	00:32:53.149	1973.149	00:00:23.636	23.636	
+Therapeut	Therapeut	00:33:10.032	1990.032	00:33:17.650	1997.65	00:00:07.618	7.618	
+Therapeut	Therapeut	00:33:42.280	2022.28	00:33:52.094	2032.094	00:00:09.814	9.814	
+Therapeut	Therapeut	00:33:52.969	2032.969	00:34:13.459	2053.459	00:00:20.490	20.49	Mm-hm. (...) Mmh, und is (hd: ist) es dann eher so dass es schon morgens startet mit den Gedanken, oder is (hd: ist) das. Dann, wenn das so'n (hd: so ein) Tag is (hd: ist) wo Sie keine anderen Pläne haben und woe sie, dann eher Zuhause sind, dass sich dann leichter auch die Gedanken daran wieder einschleichen.
+Therapeut	Therapeut	00:34:16.906	2056.906	00:34:17.885	2057.885	00:00:00.979	0.979	Mm-hm.
+Therapeut	Therapeut	00:34:22.525	2062.525	00:34:23.321	2063.321	00:00:00.796	0.796	Mm-hm.
+Therapeut	Therapeut	00:34:26.892	2066.892	00:34:27.879	2067.879	00:00:00.987	0.987	Mm-hm.
+Therapeut	Therapeut	00:34:32.412	2072.412	00:34:33.456	2073.456	00:00:01.044	1.044	Mm-hm.
+Therapeut	Therapeut	00:34:37.518	2077.518	00:34:44.198	2084.198	00:00:06.680	6.68	'S (hd: es) heißt es kann auch sein dass Sie was unternommen haben und [lautes Geräusch im Hintergrund:00:00:00] dann zuhause sind und dann kommt das plötzlich. [/lautes Geräusch im Hintergrund:00:00:03]
+Therapeut	Therapeut	00:34:49.443	2089.443	00:34:50.885	2090.885	00:00:01.442	1.442	Aah. Mmh.
+Therapeut	Therapeut	00:34:59.016	2099.016	00:35:05.931	2105.931	00:00:06.915	6.915	Mm-hm. (...) Aber das heißt das is (hd: ist) so was Vorbeugendes.
+Therapeut	Therapeut	00:35:07.447	2107.447	00:35:16.954	2116.954	00:00:09.507	9.507	Man sagen könnte wenn Sie gut, beschäftigt sind. Sachen unternehmen die Ihnen Spaß machen, dann. Überwiegt das und dann kommen. Diese Gedanken nich (hd: nicht) so leicht.
+Therapeut	Therapeut	00:35:21.452	2121.452	00:35:26.424	2126.424	00:00:04.972	4.972	Das heißt dann wär (hd: wäre) das auch schon mal eine Strategie, die für den Wochenplan spricht.
+Therapeut	Therapeut	00:35:26.977	2126.977	00:36:15.115	2175.115	00:00:48.138	48.138	Beziehungsweise der Wochenplan als Strategie. [lacht:00:00:00] [/lacht:00:00:00] Ähm. Um dem schon mal 'n (hd: ein) bisschen vorzubeugen. (p:00:00:22) Vielleicht schreiben wir das au (hd: auch) noch mal auf so ein Kärtchen. [Geräusche und Papierrascheln:00:00:00] (.....) / die verschiedenen. (....) Strategie / Möglichkeiten sind. (.) Ein gelbes oder ein grünes Kärtchen. [/Geräusche und Papierrascheln:00:00:15]
+Therapeut	Therapeut	00:36:16.746	2176.746	00:36:27.841	2187.841	00:00:11.095	11.095	[lacht:00:00:00] [/lacht:00:00:01] [räuspert sich:00:00:00] [/räuspert sich:00:00:00] Ähm. Das heißt. Das is (hd: ist) ja auch so der Umgang mit, Traurigkeit könnte man sagen so als Überbegriff?
+Therapeut	Therapeut	00:36:28.824	2188.824	00:36:48.024	2208.024	00:00:19.200	19.2	[schreibt:00:00:00] [/schreibt:00:00:13] Mmh, was ham (hd: haben) wir denn jetz (hd: jetzt) gesammelt. (....)
+Therapeut	Therapeut	00:36:49.774	2209.774	00:36:51.009	2211.009	00:00:01.235	1.235	Mm-hm.
+Therapeut	Therapeut	00:36:55.092	2215.092	00:36:56.402	2216.402	00:00:01.310	1.31	Mm-hm. Genau.
+Therapeut	Therapeut	00:36:57.976	2217.976	00:37:13.942	2233.942	00:00:15.966	15.966	Genau. Zur Ablenkung durch. Ähm. [schreibt:00:00:00] Irgendwelche positiven Sachen die Sie eigentlich gerne machen, was Ihnen guttut. (p:00:00:07) [/schreibt:00:00:12]
+Therapeut	Therapeut	00:37:17.796	2237.796	00:37:44.425	2264.425	00:00:26.629	26.629	Mm-hm. (.) Genau, das is (hd: ist). (.) Ein- Einmal ja auch schon mal Vorbeugend. (.) Gut und dann kann das aber natürlich auch in der Situation. (..) Hilfreich sein. (p:00:00:08) Mmh. 
+Therapeut	Therapeut	00:37:50.069	2270.069	00:37:57.735	2277.735	00:00:07.666	7.666	Sie können das gerne auch auflisten. (..) 'S (hd: was) würde Ihnen denn einfallen als. Was S- Sie ablenken könnte.
+Therapeut	Therapeut	00:37:59.001	2279.001	00:38:12.781	2292.781	00:00:13.780	13.78	Mm-hm. [schreibt:00:00:00] [/schreibt:00:00:12] 
+Therapeut	Therapeut	00:38:26.475	2306.475	00:38:27.495	2307.495	00:00:01.020	1.02	Mmh.
+Therapeut	Therapeut	00:38:32.172	2312.172	00:38:32.919	2312.919	00:00:00.747	0.747	Mm-hm.
+Therapeut	Therapeut	00:38:38.563	2318.563	00:38:39.126	2319.126	00:00:00.563	0.563	Mmh.
+Therapeut	Therapeut	00:38:40.581	2320.581	00:38:46.919	2326.919	00:00:06.338	6.338	Mm-hm. Ja, [Schreibgeräusche:00:00:00] das is (hd: ist) gut, Sie hatten doch auch letzte Woche überlegt mit. Fitness-Studio oder Badminton spielen, oder? [/Schreibgeräusche:00:00:05] 
+Therapeut	Therapeut	00:38:51.659	2331.659	00:38:52.448	2332.448	00:00:00.789	0.789	Okay.
+Therapeut	Therapeut	00:38:52.923	2332.923	00:38:59.885	2339.885	00:00:06.962	6.962	Mm-hm. (..) Ach stimmt das stand doch hier irgendwo eigentlich auf dem Programm. Dass Sie da in die Stadt gehen und.
+Therapeut	Therapeut	00:39:03.640	2343.64	00:39:04.816	2344.816	00:00:01.176	1.176	Ah ja, okay.
+Therapeut	Therapeut	00:39:05.804	2345.804	00:39:07.759	2347.759	00:00:01.955	1.955	Das würde noch anstehen, okay. Ja.
+Therapeut	Therapeut	00:39:11.551	2351.551	00:39:12.345	2352.345	00:00:00.794	0.794	Mm-hm.
+Therapeut	Therapeut	00:39:20.567	2360.567	00:39:27.446	2367.446	00:00:06.879	6.879	Mm-hm. [schreibt:00:00:00] [/schreibt:00:00:06]
+Therapeut	Therapeut	00:39:28.616	2368.616	00:39:39.396	2379.396	00:00:10.780	10.78	[Klicken:00:00:00] [/Klicken:00:00:05] Genau und dann die (.) radikale Akzeptanz der Situation.
+Therapeut	Therapeut	00:39:42.524	2382.524	00:40:04.686	2404.686	00:00:22.162	22.162	 [schreibt:00:00:00] [/schreibt:00:00:08] (...) Auch mit dem, Gedanken. Ähm. Was ist denn da besonders hilfreich für Sie, so das, das is (hd: ist) jetz (hd: jetzt) so, ich kann nichts dran (hd: daran) ändern, oder.
+Therapeut	Therapeut	00:40:05.362	2405.362	00:40:14.888	2414.888	00:00:09.526	9.526	Und konzentriere mich jetz (hd: jetzt) auf. (..) Auf was was ich beeinflussen kann. Und zwar irgendwas Schönes machen zum Beispiel.
+Therapeut	Therapeut	00:40:19.617	2419.617	00:40:20.620	2420.62	00:00:01.003	1.003	Mm-hm.
+Therapeut	Therapeut	00:40:25.278	2425.278	00:40:26.425	2426.425	00:00:01.147	1.147	Mm-hm.
+Therapeut	Therapeut	00:40:29.354	2429.354	00:40:31.575	2431.575	00:00:02.221	2.221	Was möchten Sie gern verändern?
+Therapeut	Therapeut	00:40:36.561	2436.561	00:40:37.873	2437.873	00:00:01.312	1.312	Aah.
+Therapeut	Therapeut	00:40:42.127	2442.127	00:40:43.018	2443.018	00:00:00.891	0.891	Mm-hm.
+Therapeut	Therapeut	00:40:51.900	2451.9	00:40:57.628	2457.628	00:00:05.728	5.728	Wie war denn so das letzte Treffen da oder wie sind Sie da auseinandergegangen? Beim Chor?
+Therapeut	Therapeut	00:41:00.250	2460.25	00:41:01.144	2461.144	00:00:00.894	0.894	Mm-hm.
+Therapeut	Therapeut	00:41:13.864	2473.864	00:41:14.597	2474.597	00:00:00.733	0.733	Mm-hm.
+Therapeut	Therapeut	00:41:20.741	2480.741	00:41:21.896	2481.896	00:00:01.155	1.155	Ach so.
+Therapeut	Therapeut	00:41:25.718	2485.718	00:41:26.493	2486.493	00:00:00.775	0.775	Mm-hm.
+Therapeut	Therapeut	00:41:29.681	2489.681	00:41:31.063	2491.063	00:00:01.382	1.382	Aah.
+Therapeut	Therapeut	00:41:31.762	2491.762	00:42:17.161	2537.161	00:00:45.399	45.399	Mm-hm. (..) Ui, das is (hd: ist). Das is (hd: ist) ja wirklich unfair. (.) Mm-hm.  (p:00:00:16) Mmh. (p:00:00:12) Und dan ham (hd: haben) Sie sich daraufhin auch. Ham (hd: haben) Sie sich dann nochmal gemeldet, oder was das, Sie ham (hd: haben) die E-Mail gelesen und dann. 
+Therapeut	Therapeut	00:42:18.983	2538.983	00:42:19.701	2539.701	00:00:00.718	0.718	Mm-hm.
+Therapeut	Therapeut	00:42:26.460	2546.46	00:42:27.276	2547.276	00:00:00.816	0.816	Mm-hm.
+Therapeut	Therapeut	00:42:29.189	2549.189	00:42:30.027	2550.027	00:00:00.838	0.838	Mm-hm.
+Therapeut	Therapeut	00:42:31.172	2551.172	00:42:32.263	2552.263	00:00:01.091	1.091	Mm-hm.
+Therapeut	Therapeut	00:42:34.336	2554.336	00:43:01.080	2581.08	00:00:26.744	26.744	Mm-hm. Ja. (p:00:00:15) Mmh. (...) Und warn (hd: waren) Sie denn. Wie war denn die Stimmung davor wenn Sie da im Chor waren?
+Therapeut	Therapeut	00:43:04.001	2584.001	00:43:05.041	2585.041	00:00:01.040	1.04	Mm-hm.
+Therapeut	Therapeut	00:43:15.278	2595.278	00:43:16.149	2596.149	00:00:00.871	0.871	Aah.
+Therapeut	Therapeut	00:43:33.735	2613.735	00:43:38.368	2618.368	00:00:04.633	4.633	Mm-hm. Und d- die E-Mail kam von der Chorleiterin?
+Therapeut	Therapeut	00:43:39.623	2619.623	00:43:43.356	2623.356	00:00:03.733	3.733	Aah und das heißt Sie wissen gar nich (hd: nicht) was mit dem, restlichen Chor eigentlich.
+Therapeut	Therapeut	00:43:44.135	2624.135	00:43:45.184	2625.184	00:00:01.049	1.049	war.
+Therapeut	Therapeut	00:43:48.108	2628.108	00:44:00.126	2640.126	00:00:12.018	12.018	Mm-hm. (.....) Und da hatten Sie dann aber von dem restlichen Chor, auch keinen Kontakt mehr mit irgendjemandem.
+Therapeut	Therapeut	00:44:00.862	2640.862	00:44:26.829	2666.829	00:00:25.967	25.967	Mm-hm. (p:00:00:16) Aber das find (hd: finde) ich ja sehr schön zum Beispiel dass Sie jetz (hd: jetzt) einen Sprachkurs [lautes Geräusch:00:00:00] [lautes Geräusch:00:00:00] machen. Ähm. Wo Sie dann da vielleich neue Kontakte knüpfen.
+Therapeut	Therapeut	00:44:30.207	2670.207	00:44:31.126	2671.126	00:00:00.919	0.919	Ach so!
+Therapeut	Therapeut	00:44:34.766	2674.766	00:44:35.643	2675.643	00:00:00.877	0.877	Mm-hm.
+Therapeut	Therapeut	00:44:42.934	2682.934	00:44:43.916	2683.916	00:00:00.982	0.982	Aah.
+Therapeut	Therapeut	00:44:46.178	2686.178	00:44:46.988	2686.988	00:00:00.810	0.81	Mm-hm.
+Therapeut	Therapeut	00:44:49.584	2689.584	00:44:50.542	2690.542	00:00:00.958	0.958	Mm-hm.
+Therapeut	Therapeut	00:44:51.521	2691.521	00:44:52.138	2692.138	00:00:00.617	0.617	Ja.
+Therapeut	Therapeut	00:45:03.575	2703.575	00:45:04.806	2704.806	00:00:01.231	1.231	Mm-hm.
+Therapeut	Therapeut	00:45:11.220	2711.22	00:45:12.333	2712.333	00:00:01.113	1.113	Mm-hm. Ja.
+Therapeut	Therapeut	00:45:15.630	2715.63	00:45:16.662	2716.662	00:00:01.032	1.032	Mm-hm.
+Therapeut	Therapeut	00:45:35.379	2735.379	00:45:36.210	2736.21	00:00:00.831	0.831	Mm-hm.
+Therapeut	Therapeut	00:45:42.877	2742.877	00:45:43.345	2743.345	00:00:00.468	0.468	Mmh.
+Therapeut	Therapeut	00:45:46.536	2746.536	00:45:47.253	2747.253	00:00:00.717	0.717	Mmh.
+Therapeut	Therapeut	00:45:49.243	2749.243	00:45:50.080	2750.08	00:00:00.837	0.837	Mmh.
+Therapeut	Therapeut	00:46:00.758	2760.758	00:46:01.459	2761.459	00:00:00.701	0.701	Mm-hm.
+Therapeut	Therapeut	00:46:08.279	2768.279	00:46:09.097	2769.097	00:00:00.818	0.818	Mm-hm.
+Therapeut	Therapeut	00:46:11.191	2771.191	00:46:12.195	2772.195	00:00:01.004	1.004	Mmh.
+Therapeut	Therapeut	00:46:13.023	2773.023	00:46:13.735	2773.735	00:00:00.712	0.712	Mm-hm.
+Therapeut	Therapeut	00:46:16.194	2776.194	00:46:17.138	2777.138	00:00:00.944	0.944	Mm-hm.
+Therapeut	Therapeut	00:46:22.043	2782.043	00:46:23.207	2783.207	00:00:01.164	1.164	Mm-hm.
+Therapeut	Therapeut	00:46:27.856	2787.856	00:46:28.771	2788.771	00:00:00.915	0.915	Mm-hm.
+Therapeut	Therapeut	00:46:32.809	2792.809	00:46:36.172	2796.172	00:00:03.363	3.363	Mm-hm. (..) Ja.
+Therapeut	Therapeut	00:46:38.903	2798.903	00:46:39.728	2799.728	00:00:00.825	0.825	Mm-hm.
+Therapeut	Therapeut	00:46:45.507	2805.507	00:46:50.673	2810.673	00:00:05.166	5.166	Und da hätten Sie schon Ideen aber müssen noch gucken (.) wie sich das dann verändern lässt.
+Therapeut	Therapeut	00:46:56.699	2816.699	00:46:57.562	2817.562	00:00:00.863	0.863	Mm-hm.
+Therapeut	Therapeut	00:47:03.501	2823.501	00:47:04.414	2824.414	00:00:00.913	0.913	Mm-hm.
+Therapeut	Therapeut	00:47:09.115	2829.115	00:47:10.031	2830.031	00:00:00.916	0.916	Mm-hm.
+Therapeut	Therapeut	00:47:13.856	2833.856	00:47:14.784	2834.784	00:00:00.928	0.928	Mm-hm.
+Therapeut	Therapeut	00:47:18.220	2838.22	00:47:19.389	2839.389	00:00:01.169	1.169	Hmm.
+Therapeut	Therapeut	00:47:22.423	2842.423	00:47:23.312	2843.312	00:00:00.889	0.889	Mm-hm.
+Therapeut	Therapeut	00:47:32.042	2852.042	00:47:36.471	2856.471	00:00:04.429	4.429	Ja wenn das dann so kommen würde, aber vielleicht dauert's (hd: dauert es) ja auch noch sechs Wochen oder acht Wochen.
+Therapeut	Therapeut	00:47:40.558	2860.558	00:47:56.299	2876.299	00:00:15.741	15.741	Und dann hätten Sie vielleicht. Wenigstens jetz (hd: jetzt) für die drei Wochen da noch, ähm, eine schöne Zeit gehabt. (.) Und könnten noch positive Eindrücke für sich mitnehmen und schon mal, ähm. Gut gestärkt ins (hd: in das) Arbeitsleben starten. 
+Therapeut	Therapeut	00:48:02.128	2882.128	00:48:05.992	2885.992	00:00:03.864	3.864	Also vielleicht könnten Sie da trotzdem jetz (hd: jetzt) schon irgendwas einbauen, und.
+Therapeut	Therapeut	00:48:06.527	2886.527	00:48:23.945	2903.945	00:00:17.418	17.418	Klar is (hd: ist) es schöner wenn man das dann auch zu Ende führen kann, ähm. Aber wenn Sie sagen jetz (hd: jetzt) grad (hd: gerade) hätten Sie ja noch Zeit. (.) Und vielleicht ja auch wenn sie, sagen so Tanzkurse finden ja oftmals Abends statt. (.) Vielleicht wär das ja auch was was Sie dann auch trotzdem noch weiter führen könnten.
+Patient	Patient	00:00:06.923	6.923	00:00:11.626	11.626	00:00:04.703	4.703	Also Montag und Dienstag wo ich nichts. Gemacht hab (hd: habe) also hatt (hd: hatte) ich 'n (hd: einen) Termin beim Arbeitsamt.
+Patient	Patient	00:00:12.341	12.341	00:00:14.500	14.5	00:00:02.159	2.159	Und danach bin ich halt noch spazieren gegangen.
+Patient	Patient	00:00:15.603	15.603	00:00:20.357	20.357	00:00:04.754	4.754	Genau. Und gestern, ach so, ich hab (hd: habe) mich für 'n (hd: einen) Sprachkurs angemeldet.
+Patient	Patient	00:00:22.333	22.333	00:00:22.888	22.888	00:00:00.555	0.555	Englisch.
+Patient	Patient	00:00:23.829	23.829	00:00:26.573	26.573	00:00:02.744	2.744	Weil ich dachte's (hd: dachte es ist) auch vielleicht ganz gut für meine Bewerbung.
+Patient	Patient	00:00:27.468	27.468	00:00:31.733	31.733	00:00:04.265	4.265	Und so und jetz (hd: jetzt), komm (hd: komme) ich halt dadurch auch noch 'n (hd: ein) bisschen raus, ich hab (hd: habe) noch 'n (hd: einen) Termin mehr.
+Patient	Patient	00:00:32.617	32.617	00:00:36.055	36.055	00:00:03.438	3.438	Und, ähm. Ja. (.)
+Patient	Patient	00:00:37.256	37.256	00:00:39.000	39.0	00:00:01.744	1.744	Ja. (.)
+Patient	Patient	00:00:42.357	42.357	00:00:43.404	43.404	00:00:01.047	1.047	Genau. Genau.
+Patient	Patient	00:00:46.755	46.755	00:00:48.616	48.616	00:00:01.861	1.861	Genau, das hat hier irgendwie nich (hd: nicht) geklappt.
+Patient	Patient	00:00:49.396	49.396	00:00:58.781	58.781	00:00:09.385	9.385	Weil, da hatte mich die Freundin, ähm. Angerufen, ob wir spazieren gehen wollen, dann dacht (hd: dachte) ich dann:. Was heißt ich brauch (hd: brauche) das nich (hd: nicht) mehr zu erfüllen, aber dann is (hd: ist) das.
+Patient	Patient	00:00:59.349	59.349	00:01:03.828	63.828	00:00:04.479	4.479	Irgendwie: hat Vorrang irgendwie, und ähm. Dann hab (hd: habe) ich das gemacht.
+Patient	Patient	00:01:09.014	69.014	00:01:09.674	69.674	00:00:00.660	0.66	Ja.
+Patient	Patient	00:01:10.904	70.904	00:01:13.087	73.087	00:00:02.183	2.183	'n (hd: ein) lustiger Film dran, aber der war mir [lacht:00:00:00][/lacht:00:00:00]
+Patient	Patient	00:01:14.706	74.706	00:01:19.825	79.825	00:00:05.119	5.119	Nee, der war nicht lustig, der war doof-lustig, also ich. Hab da nich (hd: nicht) drüber (hd: darüber) lachen können.
+Patient	Patient	00:01:21.246	81.246	00:01:25.761	85.761	00:00:04.515	4.515	Ja, das warn (hd: waren) so:. (.) Manchmal gibt's (hd: gibt es) so Witze da kann man nich (hd: nicht) drüber lachen.
+Patient	Patient	00:01:32.491	92.491	00:01:33.111	93.111	00:00:00.620	0.62	Ja.
+Patient	Patient	00:01:36.399	96.399	00:01:39.761	99.761	00:00:03.362	3.362	Ja, da wollt (hd: wollte) ich zum Botanischen Garten, ich war auch da aber der hatte zu.
+Patient	Patient	00:01:40.793	100.793	00:01:44.807	104.807	00:00:04.014	4.014	Ja, ich hab (hd: habe) gedacht der hätte länger auf aber der hat wohl Sonntags nur bis dreizehn Uhr offen.
+Patient	Patient	00:01:45.103	105.103	00:01:46.873	106.873	00:00:01.770	1.77	Und ich bin halt Nachmittags da gewesen.
+Patient	Patient	00:01:47.553	107.553	00:01:51.738	111.738	00:00:04.185	4.185	Ich dachte der hätte so wie die, andere Gärten auch irgendwie bis siebzehn, achtzehn Uhr offen.
+Patient	Patient	00:01:52.444	112.444	00:01:57.785	117.785	00:00:05.341	5.341	Aber: nichtsdestotrotz bin ich halt hingelaufen und wieder zurück, und dadurch hatt (hd: hatte) ich auch meine Schritte.
+Patient	Patient	00:01:58.738	118.738	00:01:59.277	119.277	00:00:00.539	0.539	Ja.
+Patient	Patient	00:02:07.102	127.102	00:02:15.428	135.428	00:00:08.326	8.326	Ja, also es ging irgendwie immer. Also so der Trend is (hd: ist), dass. Die Stimmung erst nich (hd: nicht) so gut is (hd: ist), oder irgendwie so, verhalten.
+Patient	Patient	00:02:16.214	136.214	00:02:17.793	137.793	00:00:01.579	1.579	Und dass sie dann besser wird.
+Patient	Patient	00:02:18.534	138.534	00:02:20.097	140.097	00:00:01.563	1.563	Ja. (.)
+Patient	Patient	00:02:23.539	143.539	00:02:23.944	143.944	00:00:00.405	0.405	Ja.
+Patient	Patient	00:02:32.813	152.813	00:02:34.452	154.452	00:00:01.639	1.639	[lacht:00:00:00] [/lacht:00:00:01]
+Patient	Patient	00:02:38.930	158.93	00:02:39.698	159.698	00:00:00.768	0.768	Ja.
+Patient	Patient	00:02:48.309	168.309	00:02:49.960	169.96	00:00:01.651	1.651	Ja, irgendwie: schon.
+Patient	Patient	00:02:50.881	170.881	00:02:54.666	174.666	00:00:03.785	3.785	Obwohl ich mich immer überwinden muss, die Aktivität. Zu machen.
+Patient	Patient	00:02:55.301	175.301	00:02:58.039	178.039	00:00:02.738	2.738	Also manchmal isses (hd: ist es) leichter, manchmal 'n (hd: ein) bisschen schwerer.
+Patient	Patient	00:02:58.484	178.484	00:03:02.985	182.985	00:00:04.501	4.501	Aber wenn ich's (hd: ich es) dann gemacht hab, dann: ähm. (.) Dann isses (hd: ist es) gut.
+Patient	Patient	00:03:03.436	183.436	00:03:04.055	184.055	00:00:00.619	0.619	Ja.
+Patient	Patient	00:03:16.984	196.984	00:03:17.886	197.886	00:00:00.902	0.902	Ja. [Geräusch:00:00:00] [/Geräusch:00:00:00]
+Patient	Patient	00:03:29.046	209.046	00:03:32.373	212.373	00:00:03.327	3.327	Keine Ahnung, das war wieder irgendwie so mein: altes Muster.
+Patient	Patient	00:03:33.222	213.222	00:03:37.174	217.174	00:00:03.952	3.952	Ich hab (hd: habe) mich nich (hd: nicht) so gefühlt, hab nich (hd: nicht) so recht gewusst was ich tun soll.
+Patient	Patient	00:03:38.165	218.165	00:03:44.335	224.335	00:00:06.170	6.17	Und, ähm:. (.) Ja, und. Dann überleg (hd: überlege) ich hin und her was ich machen kann.
+Patient	Patient	00:03:44.970	224.97	00:03:47.239	227.239	00:00:02.269	2.269	Und beim überlegen geht so viel Zeit drauf auch.
+Patient	Patient	00:03:48.034	228.034	00:03:53.775	233.775	00:00:05.741	5.741	Dass, ähm. (..) Ja dass ich im Endeffekt dann gar nichts gemacht hab.
+Patient	Patient	00:03:53.896	233.896	00:03:56.472	236.472	00:00:02.576	2.576	Und halt auch nich (hd: nicht) auf die Schritte gekommen bin, ja.
+Patient	Patient	00:03:57.912	237.912	00:04:09.104	249.104	00:00:11.192	11.192	Ja. Ich muss dazu sagen bei allen Aktivitäten, ähm. (..) Ja. Ich überleg immer vorher. Noch stundenlang drüber nach.
+Patient	Patient	00:04:09.309	249.309	00:04:12.064	252.064	00:00:02.755	2.755	Also das is (hd: ist) so bisschen was mich noch. Stört.
+Patient	Patient	00:04:13.391	253.391	00:04:18.474	258.474	00:00:05.083	5.083	Dass das nich (hd: nicht) so automatisch irgendwie kommt oder als fest eingeplant, zu der und der Zeit.
+Patient	Patient	00:04:18.738	258.738	00:04:22.603	262.603	00:00:03.865	3.865	Sondern dass ich mir immer vorher noch 'n: (hd: einen) Kopf mache. Also.
+Patient	Patient	00:04:23.111	263.111	00:04:24.904	264.904	00:00:01.793	1.793	Drum. Darüber nachdenke, ja.
+Patient	Patient	00:04:32.364	272.364	00:04:33.039	273.039	00:00:00.675	0.675	Ja.
+Patient	Patient	00:04:36.785	276.785	00:04:38.968	278.968	00:00:02.183	2.183	Ja, wann ich gehe, ob ich gehe. [lacht:00:00:00] [/lacht:00:00:00]
+Patient	Patient	00:04:39.634	279.634	00:04:53.309	293.309	00:00:13.675	13.675	Ja, also. (..) Also ich muss sagen, es is (hd: ist) schon wesentlich besser geworden, / ich fühl mich, gut dabei. Aber es is (hd: ist) halt immer noch, ähm. Also es is (hd: ist) manchmal 'n (hd: ein), mal 'n (hd: ein ) Akt. Ja.
+Patient	Patient	00:05:02.420	302.42	00:05:12.492	312.492	00:00:10.072	10.072	Ja. Also ich merk (hd: merke) vor allen Dingen, dass ich wenn ich 'n (hd: einen) festen Termin habe, Auswärtigen oder so, wo auch jemand auf mich wartet, zum Beispiel wie beim Arbeitsamt oder so.
+Patient	Patient	00:05:13.040	313.04	00:05:15.722	315.722	00:00:02.682	2.682	Ähm. Dass das dann: gut geht.
+Patient	Patient	00:05:16.560	316.56	00:05:21.364	321.364	00:00:04.804	4.804	Und, ähm. Ja, bei den andern (hd: anderen), muss ich mich halt immer noch so, überwinden.
+Patient	Patient	00:05:37.791	337.791	00:05:40.682	340.682	00:00:02.891	2.891	Wär (hd: wäre) ne (hd: eine) Möglichkeit das ma (hd: mal) auszuprobieren, ja. [Räuspert sich:00:00:00] [/räuspert sich:00:00:00]
+Patient	Patient	00:05:50.318	350.318	00:05:56.325	356.325	00:00:06.007	6.007	Wär (hd: wäre) vielleicht ganz gut. Ja, oder der Zeitraum. Also so, enger gefasstes Zeitfenster vielleicht.
+Patient	Patient	00:06:04.111	364.111	00:06:04.730	364.73	00:00:00.619	0.619	Ja.
+Patient	Patient	00:06:07.145	367.145	00:06:09.762	369.762	00:00:02.617	2.617	Ja. (..)
+Patient	Patient	00:06:14.936	374.936	00:06:17.984	377.984	00:00:03.048	3.048	Aber sonst bin ich, also. Ganz zufrieden mit mir.
+Patient	Patient	00:06:19.499	379.499	00:06:19.865	379.865	00:00:00.366	0.366	Ja.
+Patient	Patient	00:06:22.071	382.071	00:06:29.373	389.373	00:00:07.302	7.302	Ja. (.) Ja, es is (hd: ist) ja kein Zustand. Also. (...) Ich merk ja dass es mir gut tut.
+Patient	Patient	00:06:30.349	390.349	00:06:34.595	394.595	00:00:04.246	4.246	Und. Es kein Zustand dass ich halt Zuhause sitze und nich (hd: nicht) rausgehe, also.
+Patient	Patient	00:06:35.588	395.588	00:06:39.203	399.203	00:00:03.615	3.615	Egal ob jetz (hd: jetzt) schönes Wetter is (hd: ist) oder ob's (hd: ob es) regnet, aber.
+Patient	Patient	00:06:50.590	410.59	00:06:51.065	411.065	00:00:00.475	0.475	[lacht:00:00:00] [/lacht:00:00:00]
+Patient	Patient	00:07:08.645	428.645	00:07:11.175	431.175	00:00:02.530	2.53	Ja. (..)
+Patient	Patient	00:07:40.708	460.708	00:07:41.206	461.206	00:00:00.498	0.498	Ja.
+Patient	Patient	00:08:09.559	489.559	00:08:10.165	490.165	00:00:00.606	0.606	Ja.
+Patient	Patient	00:08:11.841	491.841	00:08:15.706	495.706	00:00:03.865	3.865	Ja. [lacht:00:00:00] [/lacht:00:00:02] Meine Hausaufgabe.
+Patient	Patient	00:08:17.079	497.079	00:08:21.517	501.517	00:00:04.438	4.438	(.) Ja, mach (hd: mache) ich. (..)
+Patient	Patient	00:08:37.728	517.728	00:08:41.829	521.829	00:00:04.101	4.101	(.) Ja. (..)
+Patient	Patient	00:08:55.198	535.198	00:08:55.849	535.849	00:00:00.651	0.651	[Papier raschelt:00:00:00] Mm-hm. [/Papier raschelt:00:00:00]
+Patient	Patient	00:09:00.339	540.339	00:09:01.976	541.976	00:00:01.637	1.637	Ach ich wollte Ihnen noch sagen, ähm.
+Patient	Patient	00:09:02.535	542.535	00:09:32.698	572.698	00:00:30.163	30.163	Ich hab (hd: habe) ja glaub (hd: glaube) ich ma (hd: mal) erwähnt. Ich glaub (hd: glaube) beim letzten Ma (hd: Mal) oder so, dass das typisch für [laute Geräusche:00:00:00] mich is (hd: ist), dass ich, ähm. (..) Struktur. [/laute Geräusche:00:00:06] Für mich reinbringe, (.) durch- durch Lernen und durch, so. Genau. Und, ähm. Also mein alter, ähm. Psychiater, also zu dem ich vorher gegangen bin, und, auch jetzt die- die neue Psychiaterin, die ham (hd: haben) mir das jetz (hd: jetzt) auch bestätigt ohne dass ich sie danach gefragt hab (hd: habe).
+Patient	Patient	00:09:33.640	573.64	00:09:42.134	582.134	00:00:08.494	8.494	Also, ähm. Zngweise (hd: Beziehungsweise) der alte hat mir das ja schon vorher gesacht (hd: gesagt), der hat. Immer gesagt iwie (hd: irgendwie) wenn ich in Arbeit war oder wenn ich: gearbeitet hab (hd: habe), dann ging's (hd: ging es) mir gut.
+Patient	Patient	00:09:42.317	582.317	00:09:44.936	584.936	00:00:02.619	2.619	Es sei denn: also es war irgendwas mit der Arbeit.
+Patient	Patient	00:09:45.000	585.0	00:10:00.396	600.396	00:00:15.396	15.396	Dass ich irgendwie, ähm. Mich überarbeitet habe oder dass irgendwie schlechte Konstellationen warn (hd: waren). Und auch die neue Psychiaterin: hat auch gesagt, also dass ich mich scheinbar irgendwie. Durch so Aktivitäten, stabilisiere oder strukturiere irgendwie.
+Patient	Patient	00:10:00.872	600.872	00:10:06.412	606.412	00:00:05.540	5.54	Ja. Wollt (hd: wollte) ich Ihnen nur sagen. Also 's (hd: es) is (hd: ist) mir noch so eingefallen, weil ich das letztes Mal erwähnt hatte glaub (hd: glaube) ich.
+Patient	Patient	00:10:07.605	607.605	00:10:08.504	608.504	00:00:00.899	0.899	Ja.
+Patient	Patient	00:10:18.730	618.73	00:10:20.769	620.769	00:00:02.039	2.039	Ja im Moment hab (hd: habe) ich keine [lacht:00:00:00] Lust zu lernen. [/lacht:00:00:01]
+Patient	Patient	00:10:21.826	621.826	00:10:24.746	624.746	00:00:02.920	2.92	Ja nee im Moment. Lass ich das so bisschen schleifen.
+Patient	Patient	00:10:25.561	625.561	00:10:28.087	628.087	00:00:02.526	2.526	Weil irgendwie merk (hd: merke) ich dass ich mal, ne (hd: eine) Auszeit brauche.
+Patient	Patient	00:10:28.949	628.949	00:10:32.742	632.742	00:00:03.793	3.793	Und, ähm. Da ich ja sowieso gesagt hab (hd: habe) ich nehm (hd: nehme) des (hd: das) sportlich.
+Patient	Patient	00:10:33.270	633.27	00:10:38.437	638.437	00:00:05.167	5.167	Ähm. (..) Ja, fang (hd: fange) ich jetz (hd: jetzt) irgendwann wieder damit an.
+Patient	Patient	00:10:39.541	639.541	00:10:43.214	643.214	00:00:03.673	3.673	Genau. Und dann werma (hd: werden wir) sehn (hd: sehen) was bei rauskommt. Ja.
+Patient	Patient	00:10:54.365	654.365	00:10:56.269	656.269	00:00:01.904	1.904	Ja. (..)
+Patient	Patient	00:10:58.283	658.283	00:10:58.917	658.917	00:00:00.634	0.634	[lacht:00:00:00] [/lacht:00:00:00]
+Patient	Patient	00:11:06.531	666.531	00:11:18.896	678.896	00:00:12.365	12.365	Ja. (.) Ja, weil zuviel sich nur mit so Krankheitsbildern zu beschäftigen, egal, das muss ja nix (hd: nichts), äh, Psychatrisches sein oder so. Ähm. (..) [schnaubt:00:00:00] [/schnaubt:00:00:00]
+Patient	Patient	00:11:19.444	679.444	00:11:22.381	682.381	00:00:02.937	2.937	Im Moment. (..)
+Patient	Patient	00:11:24.631	684.631	00:11:25.341	685.341	00:00:00.710	0.71	Nee.
+Patient	Patient	00:11:27.980	687.98	00:11:28.428	688.428	00:00:00.448	0.448	Ja.
+Patient	Patient	00:11:29.589	689.589	00:11:41.309	701.309	00:00:11.720	11.72	Genau. Aber, das kommt schon wieder, also spätestens wenn die Einladung. Für meine Zulassung zu der Prüfung kommt, wenn denn die Zulassung kommt, ich weiß ja gar nich (hd: nicht) ob ich, zugelassen werde, das weiß ich erst 'n (hd: einen) Monat vorher.
+Patient	Patient	00:11:42.291	702.291	00:11:44.087	704.087	00:00:01.796	1.796	Weil die ja meine Arbeit noch prüfen.
+Patient	Patient	00:11:44.818	704.818	00:11:45.862	705.862	00:00:01.044	1.044	Die ich geschrieben hab (hd: habe). 
+Patient	Patient	00:11:46.601	706.601	00:11:51.007	711.007	00:00:04.406	4.406	Und. Also ich geh (hd: gehe) ma (hd: mal) davon aus, aber es kann ja immer irgendwie was dazwischen kommen und.
+Patient	Patient	00:11:51.592	711.592	00:11:53.111	713.111	00:00:01.519	1.519	Dann werden wa (hd: wir) sehn (hd: sehen).
+Patient	Patient	00:11:54.054	714.054	00:11:54.734	714.734	00:00:00.680	0.68	Ja.
+Patient	Patient	00:11:55.801	715.801	00:12:00.436	720.436	00:00:04.635	4.635	(.) Ja. (..)
+Patient	Patient	00:12:09.142	729.142	00:12:09.523	729.523	00:00:00.381	0.381	[lacht:00:00:00] [/lacht:00:00:00]
+Patient	Patient	00:12:14.217	734.217	00:12:19.571	739.571	00:00:05.354	5.354	(.) Ich glaube, dass ich das gerne noch 'n (hd: ein) bisschen -n. Weitermachen möchte mit dem Wochenplan?
+Patient	Patient	00:12:20.455	740.455	00:12:24.517	744.517	00:00:04.062	4.062	Einfach s für mich im Moment so als Stütze oder als:, als:.
+Patient	Patient	00:12:24.634	744.634	00:12:31.754	751.754	00:00:07.120	7.12	Hilfe, irgendwie, dass ich Abends (.) mir 'n (hd: ein) gutes Gefühl, geben kann indem ich die Sachen abhake, zum Beispiel.
+Patient	Patient	00:12:33.242	753.242	00:12:43.706	763.706	00:00:10.464	10.464	Ähm. (..) Dass es für mich, also, wichtig war in der Woche, diesen Plan zu haben, einfach, dass ich mir jeden Tag was vorgenommen hab.
+Patient	Patient	00:12:44.464	764.464	00:12:51.365	771.365	00:00:06.901	6.901	(.) Ähm. Ja un (hd: und) meine Stimmung aufzuschreiben. Ich mein (hd: meine) der Trend is (hd: ist) ja hier irgendwie klar.
+Patient	Patient	00:12:52.188	772.188	00:12:55.912	775.912	00:00:03.724	3.724	Es scheint irgendwie mir besser zu gehn (hd: gehen) wenn ich irgendwas unternommen habe.
+Patient	Patient	00:12:56.127	776.127	00:12:56.904	776.904	00:00:00.777	0.777	Draußen.
+Patient	Patient	00:12:57.142	777.142	00:13:09.690	789.69	00:00:12.548	12.548	Also. Nich (hd: nicht) in der Wohnung. (.) Ja. Genau. Also. Ich würd's (hd: würde es) glaub (hd: glaube) ich ganz gern noch irgendwie (.) für mich. 'N (hd: ein) paar Wochen oder so.
+Patient	Patient	00:13:10.166	790.166	00:13:12.500	792.5	00:00:02.334	2.334	Noch weiter machen. Einfach so als.
+Patient	Patient	00:13:13.370	793.37	00:13:15.569	795.569	00:00:02.199	2.199	Krücke. Ja.
+Patient	Patient	00:13:40.792	820.792	00:13:43.744	823.744	00:00:02.952	2.952	Ja. Ich kann mir den auch selbst basteln, also.
+Patient	Patient	00:13:44.851	824.851	00:13:45.297	825.297	00:00:00.446	0.446	Ja.
+Patient	Patient	00:13:53.892	833.892	00:13:54.638	834.638	00:00:00.746	0.746	Ziel.
+Patient	Patient	00:13:56.146	836.146	00:13:56.807	836.807	00:00:00.661	0.661	Ja.
+Patient	Patient	00:14:06.538	846.538	00:14:17.296	857.296	00:00:10.758	10.758	(..) Mmh. (p:00:00:06)
+Patient	Patient	00:14:19.073	859.073	00:14:28.817	868.817	00:00:09.744	9.744	(p:00:00:07) Ich glaube ich plan (hd: plane) das selber.
+Patient	Patient	00:14:29.063	869.063	00:14:30.470	870.47	00:00:01.407	1.407	Ich versuch's (hd: versuche es) einfach mal.
+Patient	Patient	00:14:31.288	871.288	00:14:34.937	874.937	00:00:03.649	3.649	Auch mit den Aktivitäten die Sie mir hier noch gegeben haben, auf den Zetteln.
+Patient	Patient	00:14:35.872	875.872	00:14:47.761	887.761	00:00:11.889	11.889	(.) Irgendwie. Was machen. (.) Genau, dann kann ich die nämlich / wenn mir davon was gefällt, also. Da was für mich in Frage kommt, so muss ich's (hd: ich es) ausdrücken.
+Patient	Patient	00:14:48.416	888.416	00:14:54.383	894.383	00:00:05.967	5.967	Ähm. (.) Dann. Kann ich das ja noch mit da, mit reinnehmen, igendwie.
+Patient	Patient	00:14:55.501	895.501	00:14:59.276	899.276	00:00:03.775	3.775	Ja. (..)
+Patient	Patient	00:15:07.851	907.851	00:15:08.340	908.34	00:00:00.489	0.489	Ja.
+Patient	Patient	00:15:10.998	910.998	00:15:12.303	912.303	00:00:01.305	1.305	Ja.
+Patient	Patient	00:15:24.624	924.624	00:15:25.063	925.063	00:00:00.439	0.439	Ja.
+Patient	Patient	00:15:35.632	935.632	00:15:37.387	937.387	00:00:01.755	1.755	Das hat nich (hd: nicht) gezogen, ja.
+Patient	Patient	00:15:38.841	938.841	00:15:42.250	942.25	00:00:03.409	3.409	Ja. (.) Das war mein Depri-Tag.
+Patient	Patient	00:15:44.291	944.291	00:15:44.808	944.808	00:00:00.517	0.517	Ja.
+Patient	Patient	00:15:46.723	946.723	00:15:47.489	947.489	00:00:00.766	0.766	Ja.
+Patient	Patient	00:15:58.542	958.542	00:15:59.063	959.063	00:00:00.521	0.521	Ja.
+Patient	Patient	00:16:01.324	961.324	00:16:09.565	969.565	00:00:08.241	8.241	Aber eigentlich. Eigentlich müssten ja, die dreitausend oder fünftausend Schritte. Anlass genug sein raus zu gehen. Also.
+Patient	Patient	00:16:09.821	969.821	00:16:14.579	974.579	00:00:04.758	4.758	Eigentlich, aber. Ich hab's (hd: habe es) halt nich (hd: nicht). Geschafft, ja. An dem Tag.
+Patient	Patient	00:16:36.319	996.319	00:16:37.115	997.115	00:00:00.796	0.796	Okay.
+Patient	Patient	00:16:48.914	1008.914	00:16:50.404	1010.404	00:00:01.490	1.49	[lacht:00:00:00] [/lacht:00:00:01]
+Patient	Patient	00:17:09.425	1029.425	00:17:11.322	1031.322	00:00:01.897	1.897	Ja. (..)
+Patient	Patient	00:17:13.719	1033.719	00:17:18.287	1038.287	00:00:04.568	4.568	(..) Ja ich glaub (hd: glaube) das is (hd: ist) besser.
+Patient	Patient	00:17:21.595	1041.595	00:17:22.766	1042.766	00:00:01.171	1.171	Mm-hm. Mm-hm.
+Patient	Patient	00:17:28.744	1048.744	00:17:30.872	1050.872	00:00:02.128	2.128	[lacht:00:00:00] Den Schnappschuss des Tages. [/lacht:00:00:02]
+Patient	Patient	00:17:41.000	1061.0	00:17:52.541	1072.541	00:00:11.541	11.541	Ja. (...) Ja 's is ne (hd: es ist eine) Idee. (.) Weil wie gesacht (hd: gesagt), also an dem Tag ham (hd: haben) mich die dreitausend Schritte nich aus'm (hd: nicht aus dem) Haus gebracht.
+Patient	Patient	00:17:53.659	1073.659	00:17:56.212	1076.212	00:00:02.553	2.553	Obwohl's (hd: Obwohl es) eigentlich Ziel war, aber.
+Patient	Patient	00:17:56.883	1076.883	00:18:01.046	1081.046	00:00:04.163	4.163	(..) Ja. (.)
+Patient	Patient	00:18:01.383	1081.383	00:18:02.404	1082.404	00:00:01.021	1.021	Kommt halt vor.
+Patient	Patient	00:18:14.455	1094.455	00:18:17.183	1097.183	00:00:02.728	2.728	Mmh. (..)
+Patient	Patient	00:18:27.501	1107.501	00:18:28.042	1108.042	00:00:00.541	0.541	Mmh.
+Patient	Patient	00:18:35.468	1115.468	00:18:46.144	1126.144	00:00:10.676	10.676	Mm-hm. (p:00:00:07) Ich bin ma (hd: mal) gespannt.
+Patient	Patient	00:18:47.151	1127.151	00:18:49.893	1129.893	00:00:02.742	2.742	Bei manchen Sachen werd (hd: werde) ich wahrscheinlich schmunzeln müssen.
+Patient	Patient	00:18:51.383	1131.383	00:19:00.446	1140.446	00:00:09.063	9.063	[lacht:00:00:00] [/lacht:00:00:02] (..) Ja. [Geräusche:00:00:00] [/Geräusche:00:00:03]
+Patient	Patient	00:19:13.956	1153.956	00:19:17.255	1157.255	00:00:03.299	3.299	Genau, also. Wenn ich diese Gefühle zulasse.
+Patient	Patient	00:19:18.355	1158.355	00:19:21.170	1161.17	00:00:02.815	2.815	(.) Dann is- is (hd: ist) der Druck weg.
+Patient	Patient	00:19:21.383	1161.383	00:19:22.531	1162.531	00:00:01.148	1.148	Von diesem Gefühl.
+Patient	Patient	00:19:23.358	1163.358	00:19:25.441	1165.441	00:00:02.083	2.083	Aber die Situation bleibt ja.
+Patient	Patient	00:19:26.524	1166.524	00:19:30.242	1170.242	00:00:03.718	3.718	(..) Also. (.)
+Patient	Patient	00:19:33.069	1173.069	00:19:39.457	1179.457	00:00:06.388	6.388	Ja, was halt immer kommt is (hd: ist), ähm:. Dass meine Ex-Freundin den Kontakt so radikal abgebrochen hat.
+Patient	Patient	00:19:40.576	1180.576	00:19:50.259	1190.259	00:00:09.683	9.683	Und, ich mein (hd: meine). Das is jetz (hd: ist jetzt) mit ihr passiert, aber zum Beispiel im Chor, die ham (hd: haben) ja den Kontakt auch radikal abgebrochen, die ham (hd: haben) mich ja quasi rausgeschmissen.
+Patient	Patient	00:19:51.349	1191.349	00:19:56.769	1196.769	00:00:05.420	5.42	Ähm. Und. Das sin (hd: sind) halt so Sachen, die kommen manchma (hd: manchmal) immer wieder hoch.
+Patient	Patient	00:19:58.017	1198.017	00:20:06.415	1206.415	00:00:08.398	8.398	Und, ähm. Also mein Kopf sagt mir mittlerweile schon, ähm. (..) Ja also, der versteht das.
+Patient	Patient	00:20:06.905	1206.905	00:20:07.851	1207.851	00:00:00.946	0.946	Ähm.
+Patient	Patient	00:20:10.420	1210.42	00:20:12.361	1212.361	00:00:01.941	1.941	Ja, einfach. Dass es so is (hd: ist).
+Patient	Patient	00:20:12.744	1212.744	00:20:23.085	1223.085	00:00:10.341	10.341	Also. (....) Dass die Situation so is (hd: ist), dass: äh, pff. Die Andern (hd: Anderen) ihre Gründe dafür haben werden.
+Patient	Patient	00:20:24.151	1224.151	00:20:32.984	1232.984	00:00:08.833	8.833	Ähm. (..) Die für mich jetz (hd: jetzt) rational nich (hd: nicht) nachvollziehbar sind, aber, ähm, die ich akzeptieren muss, wahrscheinlich.
+Patient	Patient	00:20:34.053	1234.053	00:20:39.370	1239.37	00:00:05.317	5.317	Ähm. Aber so dieses Gefühl, einfach so: stehen gelassen zu werden.
+Patient	Patient	00:20:43.127	1243.127	00:20:43.978	1243.978	00:00:00.851	0.851	Ja.
+Patient	Patient	00:20:45.172	1245.172	00:20:57.477	1257.477	00:00:12.305	12.305	(p:00:00:08) Vor allen Dingen frag (hd: frage) ich mich dann auch ob ich was falsch gemacht hab (hd: habe). 
+Patient	Patient	00:20:58.420	1258.42	00:21:00.341	1260.341	00:00:01.921	1.921	Das sind so die typischen Fragen halt.
+Patient	Patient	00:21:01.666	1261.666	00:21:11.228	1271.228	00:00:09.562	9.562	(p:00:00:06) Und das is was was ich meine, ich kann an der Situation ja nichts ändern.
+Patient	Patient	00:21:11.404	1271.404	00:21:13.256	1273.256	00:00:01.852	1.852	Also. Die is (hd: ist) ja da.
+Patient	Patient	00:21:13.574	1273.574	00:21:16.580	1276.58	00:00:03.006	3.006	Aber:. Wie ich damit umgehe, also.
+Patient	Patient	00:22:15.718	1335.718	00:22:17.149	1337.149	00:00:01.431	1.431	Nee. Ich hab (hd: habe) das-
+Patient	Patient	00:22:18.237	1338.237	00:22:19.212	1339.212	00:00:00.975	0.975	Genau.
+Patient	Patient	00:22:35.845	1355.845	00:22:40.085	1360.085	00:00:04.240	4.24	(..) Ja ich frag (hd: frage) mich zum einen warum?
+Patient	Patient	00:22:41.233	1361.233	00:22:49.149	1369.149	00:00:07.916	7.916	(....) Da hab ich keine Antwort drauf (hd: darauf), werd (hd: werde) ich auch keine Antwort drauf (hd: darauf) bekommen.
+Patient	Patient	00:22:50.403	1370.403	00:23:00.901	1380.901	00:00:10.498	10.498	Ähm. (.....) Ja ich fühl (hd: fühle) mich irgendwie so, stehen gelassen, w- wie ich's (hd: ich es) schon gesagt hab (hd: habe).
+Patient	Patient	00:23:01.812	1381.812	00:23:08.661	1388.661	00:00:06.849	6.849	(.) Ähm. (...) Und irgendwie missachtet.
+Patient	Patient	00:23:09.946	1389.946	00:23:19.549	1399.549	00:00:09.603	9.603	(p:00:00:08) Ja und ich versteh's (hd: verstehe es) halt einfach nich (hd: nicht).
+Patient	Patient	00:23:19.808	1399.808	00:23:23.224	1403.224	00:00:03.416	3.416	Also. (...)
+Patient	Patient	00:23:54.043	1434.043	00:24:05.973	1445.973	00:00:11.930	11.93	(...) Ich weiß nich (hd: nicht) ob's (hd: ob es) hilfreich is (hd: ist). (.....) Ob's (hd: ob es) mir helfen würde weiß ich nich (hd: nicht).
+Patient	Patient	00:24:06.212	1446.212	00:24:11.544	1451.544	00:00:05.332	5.332	Also. (...) Ich weiß nur dass es ne (hd: eine) doofe Situation is (hd: ist).
+Patient	Patient	00:25:20.305	1520.305	00:25:33.750	1533.75	00:00:13.445	13.445	(..) Drauf hoffen dass das Gefühl weniger wird. [Geräusch:00:00:00] [/Geräusch:00:00:00] (p:00:00:08)
+Patient	Patient	00:25:59.425	1559.425	00:26:04.768	1564.768	00:00:05.343	5.343	(...) Ja der Kopf is (hd: ist) einfach nüchtern.
+Patient	Patient	00:26:05.952	1565.952	00:26:08.574	1568.574	00:00:02.622	2.622	Der sagt die Situation war so.
+Patient	Patient	00:26:09.760	1569.76	00:26:12.973	1572.973	00:00:03.213	3.213	(.) Dann is (hd: ist) der Bruch passiert.
+Patient	Patient	00:26:14.236	1574.236	00:26:25.997	1585.997	00:00:11.761	11.761	(..) Ja. (.....) Ja und die Situation is (hd: ist) halt so. (.)
+Patient	Patient	00:26:31.576	1591.576	00:26:32.957	1592.957	00:00:01.381	1.381	[lacht:00:00:00] [/lacht:00:00:00] Ja schon /.
+Patient	Patient	00:26:34.472	1594.472	00:26:36.255	1596.255	00:00:01.783	1.783	Ja schon besser, aber.
+Patient	Patient	00:26:36.546	1596.546	00:26:41.042	1601.042	00:00:04.496	4.496	Also es is (hd: ist) schon besser geworden, aber. Manchmal holt's (hd: holt es) mich halt nochmal so.
+Patient	Patient	00:26:41.100	1601.1	00:26:41.600	1601.6	00:00:00.500	0.5	Ein.
+Patient	Patient	00:27:13.584	1633.584	00:27:28.023	1648.023	00:00:14.439	14.439	Ich glaub (hd: glaube) ich fühl (hd: fühle) mich verletzt. (.) Und, ähm. (...) Ja: gut, das was nich (hd: nicht), das was n- d- das d-d- klar, das: was nich (hd: nicht) mehr da is (hd: ist).
+Patient	Patient	00:27:29.067	1649.067	00:27:35.569	1655.569	00:00:06.502	6.502	Das wieder mein Kopf der sagt, klar ist (hd: ist) da nichts mehr. (...)
+Patient	Patient	00:27:35.978	1655.978	00:28:05.595	1685.595	00:00:29.617	29.617	Ja ich weiß nich (hd: nicht) wie ich das ausdrücken soll. (...) [seufzt:00:00:00] [/seufzt:00:00:02] (p:00:00:16) Ich meine ich. Kann mich auf der andern (hd: anderen) Seite auch fragen. Wenn der Kontakt jetz (hd: jetzt) noch weiter bestehen würde.
+Patient	Patient	00:28:07.356	1687.356	00:28:11.069	1691.069	00:00:03.713	3.713	Ob der Kontakt. Also ob das Verhältnis.
+Patient	Patient	00:28:11.787	1691.787	00:28:20.744	1700.744	00:00:08.957	8.957	Dann irgendwie gut für mich is (hd: ist). Weil es kann ja auch sein dass sich so'n- so'n (hd: so ein) freundschaftliches Verhältnis irgendwie: auch negativ auswirken kann.
+Patient	Patient	00:28:22.171	1702.171	00:28:29.911	1709.911	00:00:07.740	7.74	Und wenn sich das negativ auswirkt, dann kann es ja selben Zustand geben wie ich den jetz (hd: jetzt) habe, wo der Kontak abgebrochen is (hd: ist).
+Patient	Patient	00:28:31.361	1711.361	00:28:34.869	1714.869	00:00:03.508	3.508	(.) Ja. (..)
+Patient	Patient	00:28:43.101	1723.101	00:28:47.913	1727.913	00:00:04.812	4.812	Nö. (.) Also wenn sich das so, hätte eingeschlichen.
+Patient	Patient	00:28:49.006	1729.006	00:28:57.388	1737.388	00:00:08.382	8.382	Dass der Kontakt irgendwie, negativ, ähm: (..) bewertet wird irgendwann.
+Patient	Patient	00:28:57.574	1737.574	00:29:00.519	1740.519	00:00:02.945	2.945	Ich mein (hd: meine) dann wär (hd: wäre) die selbe Situation wie jetz (hd: jetzt) auch.
+Patient	Patient	00:29:01.793	1741.793	00:29:10.343	1750.343	00:00:08.550	8.55	Aber es is (hd: ist) einfach dieses. (.....) Dieser Total-Abbruch.
+Patient	Patient	00:29:22.692	1762.692	00:29:25.361	1765.361	00:00:02.669	2.669	(.) Ja und auch keine Reaktionen.
+Patient	Patient	00:29:26.992	1766.992	00:29:33.285	1773.285	00:00:06.293	6.293	(.) Also zum Beispiel bei meiner Ex-Freundin war's (hd: war es) so, wir ham (hd: haben) noch gesacht (hd: gesagt) wir schreib uns no- also wir schreiben noch mal.
+Patient	Patient	00:29:33.362	1773.362	00:29:34.936	1774.936	00:00:01.574	1.574	Weil wir uns noch mal treffen wollten.
+Patient	Patient	00:29:35.752	1775.752	00:29:39.326	1779.326	00:00:03.574	3.574	Und dann hab (hd: habe) ich irgendwann geschrieben und dann hab ich keine Antwort drauf bekommen.
+Patient	Patient	00:29:40.471	1780.471	00:29:51.714	1791.714	00:00:11.243	11.243	Und, ähm. Dann hab (hd: habe) ich's (hd: ich es) auch sein gelassen. (.) Und, ähm. So als. (.) So als hätt (hd: hätte) ich die WhatsApp oder die SMS niemals geschrieben.
+Patient	Patient	00:29:52.376	1792.376	00:29:54.544	1794.544	00:00:02.168	2.168	Also. Ja. (.)
+Patient	Patient	00:29:55.893	1795.893	00:30:02.796	1802.796	00:00:06.903	6.903	(....) Als wär (hd: wäre) das nie passiert irgendwie, so dieses.
+Patient	Patient	00:30:04.220	1804.22	00:30:07.893	1807.893	00:00:03.673	3.673	(..) Dieses Nichtssagen.
+Patient	Patient	00:30:08.988	1808.988	00:30:15.416	1815.416	00:00:06.428	6.428	(..) Ja. (...)
+Patient	Patient	00:30:20.404	1820.404	00:30:22.829	1822.829	00:00:02.425	2.425	Ja die- dies- diese Ignoranz dann.
+Patient	Patient	00:30:22.979	1822.979	00:30:26.630	1826.63	00:00:03.651	3.651	ja. Oder das Ignorieren, nich (hd: nicht) die Ignoranz, das Ignorieren.
+Patient	Patient	00:30:27.978	1827.978	00:30:35.671	1835.671	00:00:07.693	7.693	(.) Ja. Aber  wie gesacht (hd: gesagt) / / mein Kopf. (..) Der sacht (hd: sagt) dann is (hd: ist) so.
+Patient	Patient	00:31:34.611	1894.611	00:31:38.384	1898.384	00:00:03.773	3.773	
+Patient	Patient	00:31:45.721	1905.721	00:32:16.510	1936.51	00:00:30.789	30.789	
+Patient	Patient	00:32:17.811	1937.811	00:32:29.532	1949.532	00:00:11.721	11.721	
+Patient	Patient	00:32:53.170	1973.17	00:33:09.936	1989.936	00:00:16.766	16.766	
+Patient	Patient	00:33:17.818	1997.818	00:33:41.727	2021.727	00:00:23.909	23.909	
+Patient	Patient	00:33:52.204	2032.204	00:33:52.978	2032.978	00:00:00.774	0.774	Mm-hm.
+Patient	Patient	00:34:13.524	2053.524	00:34:16.872	2056.872	00:00:03.348	3.348	Also manchmal kommt's (hd: kommt es) halt wenn ich viel Zeit hab (hd: habe) zum Nachdenken.
+Patient	Patient	00:34:18.150	2058.15	00:34:22.489	2062.489	00:00:04.339	4.339	Deswegen find ich's (hd: finde ich es) halt so gut dass ich im Moment Aufgaben hab, die:.
+Patient	Patient	00:34:22.959	2062.959	00:34:26.808	2066.808	00:00:03.849	3.849	Die mich einnehmen. (.) Oder wo ich was machen kann.
+Patient	Patient	00:34:28.071	2068.071	00:34:32.288	2072.288	00:00:04.217	4.217	(.) Un (hd: und) m- manchma (hd: manchmal) kommt das auch. Ganz spontan.
+Patient	Patient	00:34:33.673	2073.673	00:34:37.176	2077.176	00:00:03.503	3.503	Ja. (..)
+Patient	Patient	00:34:44.255	2084.255	00:34:49.446	2089.446	00:00:05.191	5.191	Ja es is (hd: ist) so. Wenn ich was unternommen hab (hd: habe) mit andern (hd: anderen), dann überwiegt mehr so dieser. Positive.
+Patient	Patient	00:34:50.416	2090.416	00:34:59.021	2099.021	00:00:08.605	8.605	Aspekt eigentlich. Ja. Es sei denn irgendwie an der, Verabredung oder so da war irgendwas was nich (hd: nicht). irgendwie nich (hd: nicht) gestimmt hat oder so.
+Patient	Patient	00:35:06.172	2106.172	00:35:07.319	2107.319	00:00:01.147	1.147	Mmh.
+Patient	Patient	00:35:16.969	2116.969	00:35:21.469	2121.469	00:00:04.500	4.5	Ja. (...)
+Patient	Patient	00:35:26.719	2126.719	00:35:27.872	2127.872	00:00:01.153	1.153	Ja. [lacht:00:00:00] [/lacht:00:00:00]
+Patient	Patient	00:36:15.191	2175.191	00:36:16.822	2176.822	00:00:01.631	1.631	[lacht:00:00:00] Grünes. [/lacht:00:00:01]
+Patient	Patient	00:36:27.936	2187.936	00:36:28.741	2188.741	00:00:00.805	0.805	Mm-hm.
+Patient	Patient	00:36:48.177	2208.177	00:36:49.536	2209.536	00:00:01.359	1.359	Unsre (hd: unsere) Verabredungen.
+Patient	Patient	00:36:51.036	2211.036	00:36:55.036	2215.036	00:00:04.000	4.0	Erstma (hd: erst mal) glaub (hd: glaube) ich ham (hd: haben) wir gesagt mich ablenken, mit irgendwas.
+Patient	Patient	00:36:56.063	2216.063	00:36:57.996	2217.996	00:00:01.933	1.933	Die Frage war nur, mit was.
+Patient	Patient	00:37:14.264	2234.264	00:37:17.763	2237.763	00:00:03.499	3.499	Ich hab (hd: habe) jetz (hd: jetzt) geschrieben Ablenkung durch positive Aktivitäten.
+Patient	Patient	00:37:44.513	2264.513	00:37:50.013	2270.013	00:00:05.500	5.5	Soll ich die noch auflisten oder. Also, oder reicht das wenn ich das da allgemein geschrieben hab.
+Patient	Patient	00:37:57.766	2277.766	00:37:59.013	2279.013	00:00:01.247	1.247	Mich verabreden.
+Patient	Patient	00:38:12.899	2292.899	00:38:26.489	2306.489	00:00:13.590	13.59	Sport machen wär (hd: wäre) eigentlich auch ganz gut aber da mussi ch mich auch wieder, überwinden. Ja, beziehungsweise, also. Die Bewegung hier is (hd: ist) ja auch ne- nn- f- (..) 'Ne (hd: eine) Art von Sport.
+Patient	Patient	00:38:26.503	2306.503	00:38:32.553	2312.553	00:00:06.050	6.05	Halt nich (hd: nicht), sportlich in dem Sinne dass ich mich z- zu Höchstleistungen auf- f- rappel (hd: aufrapple), aber.
+Patient	Patient	00:38:33.106	2313.106	00:38:38.446	2318.446	00:00:05.340	5.34	Ähm. (.) Also, Bewegung.
+Patient	Patient	00:38:38.595	2318.595	00:38:40.595	2320.595	00:00:02.000	2.0	Ich schreib (hd: schreibe) einfach ma (hd: mal) mich in Bewegung bringen.
+Patient	Patient	00:38:46.942	2326.942	00:38:51.659	2331.659	00:00:04.717	4.717	Ja hab ich auch. (..) Ich bin da immer noch dran. [lacht:00:00:00] [/lacht:00:00:00]
+Patient	Patient	00:38:51.681	2331.681	00:38:53.276	2333.276	00:00:01.595	1.595	Ch (hd: ich) hab (hd: habe) mich aber noch nich (hd: nicht), ähm.
+Patient	Patient	00:38:58.228	2338.228	00:39:03.681	2343.681	00:00:05.453	5.453	In die Stadt gehen war ja eigentlich, genau aber das hab (hd: habe) ich ja dann nich (hd: nicht) gemacht da hab (hd: habe) ich ja 'n (hd: einen) ausgedehnten Spaziergang gemacht.
+Patient	Patient	00:39:04.595	2344.595	00:39:06.042	2346.042	00:00:01.447	1.447	Aber, das kommt noch.
+Patient	Patient	00:39:07.325	2347.325	00:39:11.617	2351.617	00:00:04.292	4.292	Ja. Ich nehm's (hd: nehme es) wieder auf in: in: in den nächsten. Wochenplan.
+Patient	Patient	00:39:11.744	2351.744	00:39:20.170	2360.17	00:00:08.426	8.426	Für nächste Woche.[Papierracheln:00:00:00] [/Papierrascheln:00:00:03] (..) Vielleicht auch Musik hören?
+Patient	Patient	00:39:27.487	2367.487	00:39:28.494	2368.494	00:00:01.007	1.007	Ja.
+Patient	Patient	00:39:39.482	2379.482	00:39:42.422	2382.422	00:00:02.940	2.94	[lacht:00:00:00] [/lacht:00:00:01] Ja.
+Patient	Patient	00:40:04.817	2404.817	00:40:05.610	2405.61	00:00:00.793	0.793	Ja. [lacht:00:00:00] [/lacht:00:00:00]
+Patient	Patient	00:40:15.125	2415.125	00:40:19.633	2419.633	00:00:04.508	4.508	Ich glaub (hd: glaube) das erste wär (hd: wäre) erst mal dass ich das so akzeptiere und dass ich mir sage das si (hd: ist) so.
+Patient	Patient	00:40:20.842	2420.842	00:40:24.842	2424.842	00:00:04.000	4.0	Obwohl ich nich (hd: nicht) weiß ob mich das irgendwie noch weiter runterzieht.
+Patient	Patient	00:40:26.404	2426.404	00:40:29.387	2429.387	00:00:02.983	2.983	Weil ich halt gerne was verändern möchte, aber.
+Patient	Patient	00:40:31.804	2431.804	00:40:36.304	2436.304	00:00:04.500	4.5	(...) Dass mich das nich (hd: nicht) mehr so runterzieht.
+Patient	Patient	00:40:38.054	2438.054	00:40:42.054	2442.054	00:00:04.000	4.0	Weil. Die Situation kann ich ja nich (hd: nicht) verändern, ich kann aj nich (hd: nicht).
+Patient	Patient	00:40:42.738	2442.738	00:40:51.397	2451.397	00:00:08.659	8.659	Ich glaub (hd: glaube) wenn ich sie fünfzigtausend Mal anschreiben würde, sie würd (hd: würde) n- nich (hd: nicht) mehr reagieren. Oder: beim Chor, wenn ich da, mich melde.
+Patient	Patient	00:40:57.897	2457.897	00:40:59.897	2459.897	00:00:02.000	2.0	Da gab's (hd: gab es) kein Treffen.
+Patient	Patient	00:41:01.147	2461.147	00:41:13.829	2473.829	00:00:12.682	12.682	Ich glaub (hd: glaube). Dass: die. Ausschlaggebende Situation oder. (.) Das war dass ich. Ähm. (.) Wegen der Arbeit, einen Tag nich (hd: nicht) zum Probe kommen konnte.
+Patient	Patient	00:41:14.361	2474.361	00:41:20.319	2480.319	00:00:05.958	5.958	Und, daraufhin ham (hd: haben) sie mir ne (hd: eine) E-Mail geschrieben, dass ich auch zukünftig nich (hd: nicht) mehr zur Probe kommen müsste.
+Patient	Patient	00:41:21.872	2481.872	00:41:25.489	2485.489	00:00:03.617	3.617	Ja. (...)
+Patient	Patient	00:41:25.835	2485.835	00:41:29.794	2489.794	00:00:03.959	3.959	Die ham's (hd: haben es) mir noch nich (hd: nicht) ma (hd: mal) in's (hd: in das) Gesicht gesagt oder so, aber. (..)
+Patient	Patient	00:41:29.936	2489.936	00:41:31.638	2491.638	00:00:01.702	1.702	/ / / / machen.
+Patient	Patient	00:42:17.255	2537.255	00:42:18.936	2538.936	00:00:01.681	1.681	Ich halte (hd: hatte) da ganz andre (hd: andere) Sorgen.
+Patient	Patient	00:42:19.715	2539.715	00:42:26.324	2546.324	00:00:06.609	6.609	Also. (..) Die Sorge war eigentlich. Die die ich hatte in der Zeit, war äh, war ich ja krank.
+Patient	Patient	00:42:27.255	2547.255	00:42:29.000	2549.0	00:00:01.745	1.745	Das das auch mit der Arbeit.
+Patient	Patient	00:42:29.510	2549.51	00:42:31.127	2551.127	00:00:01.617	1.617	Dann nich (hd: nicht) mehr funktioniert hat.
+Patient	Patient	00:42:32.277	2552.277	00:42:34.340	2554.34	00:00:02.063	2.063	Kam halt alles so zusammen.
+Patient	Patient	00:43:01.318	2581.318	00:43:04.000	2584.0	00:00:02.682	2.682	(..) Eigentlich gut.
+Patient	Patient	00:43:05.250	2585.25	00:43:15.191	2595.191	00:00:09.941	9.941	(...) 's (hd: es) war halt. Die unsre (hd: unsere) Leiterin die war halt. (.) Also, is (hd: ist) 'n (hd: ein) sehr dominantes:.
+Patient	Patient	00:43:15.957	2595.957	00:43:33.532	2613.532	00:00:17.575	17.575	Wesen. Halt. Genau. (.) Und, ähm. (..) Ja, was. Was halt au (hd: auch) noch dazu kommt is, is ja nich (hd: nicht) bloß, dass der Chor mir abhanden gekommen is (hd: ist) sondern auch meine Kontakte die ich hatte. (.) Wo die war'n (hd: waren) ja auch auf einma (hd: einmal) alle weg.
+Patient	Patient	00:43:38.127	2618.127	00:43:38.940	2618.94	00:00:00.813	0.813	Mm-hm.
+Patient	Patient	00:43:43.520	2623.52	00:43:44.170	2624.17	00:00:00.650	0.65	Nö.
+Patient	Patient	00:43:45.317	2625.317	00:43:48.021	2628.021	00:00:02.704	2.704	Weiß nich (hd: nicht) was die darüber denken, ich weiß keine Ahnung.
+Patient	Patient	00:44:00.161	2640.161	00:44:00.809	2640.809	00:00:00.648	0.648	Nee.
+Patient	Patient	00:44:26.564	2666.564	00:44:30.212	2670.212	00:00:03.648	3.648	Ja, da kann ich nich (hd: nicht) so viel Kontakte knüpfen weil ich den einzeln mache, also.
+Patient	Patient	00:44:31.200	2671.2	00:44:35.468	2675.468	00:00:04.268	4.268	Ja, weil ich den eigentlich gedacht hab, mich auf Bewerbungsgespräche vorzubereiten.
+Patient	Patient	00:44:36.051	2676.051	00:44:42.751	2682.751	00:00:06.700	6.7	Und, ähm. Deswegen hatte ich. Halt einzeln gebucht, aber.
+Patient	Patient	00:44:43.851	2683.851	00:44:46.106	2686.106	00:00:02.255	2.255	Vielleicht mach (hd: mache) ich dann auch noch einen später.
+Patient	Patient	00:44:47.081	2687.081	00:44:49.489	2689.489	00:00:02.408	2.408	Also, in- in ner (hd: einer) Gruppe oder so.
+Patient	Patient	00:44:50.613	2690.613	00:44:51.443	2691.443	00:00:00.830	0.83	Ja.
+Patient	Patient	00:44:52.272	2692.272	00:45:03.522	2703.522	00:00:11.250	11.25	Aber ich hab (hd: habe) halt jetz (hd: jetzt) gedacht. (.) Für meine, Bewerbung. (...) Dass ich da irgendwie was intensiv-mäßiges brauche.
+Patient	Patient	00:45:05.022	2705.022	00:45:11.234	2711.234	00:00:06.212	6.212	Ja. Aber es is (hd: ist) schon gut, ich, komm (hd: komme) halt 'n (hd: ein) bisschen raus, ich hab 'n (hd: einen) neuen Termin.
+Patient	Patient	00:45:12.351	2712.351	00:45:15.561	2715.561	00:00:03.210	3.21	Und, ähm. Das ja auch schon ma (hd: mal) was wert.
+Patient	Patient	00:45:16.810	2716.81	00:45:35.361	2735.361	00:00:18.551	18.551	(.) Ja. (.....) Ja ich hab (hd: habe) halt noch, viele Ideen die ich gerne machen würde, aber. Ich weiß halt nich (hd: nicht) zum Beispiel, weiß ich halt im Moment nich (hd: nicht), ähm, was m- aus mir wird. Also jetz (hd: jetzt) mit, Berufsmäßig.
+Patient	Patient	00:45:36.280	2736.28	00:45:42.808	2742.808	00:00:06.528	6.528	Ähm. (.) Wenn ich natürlich: irgendwie in die Industrie komme oder so dann hab (hd: habe) ich ne (hd: eine) Fünf-Tage-Woche.
+Patient	Patient	00:45:43.085	2743.085	00:45:46.340	2746.34	00:00:03.255	3.255	Geh (hd: gehe) ich wieder zurück in die Apotheke hab (hd: habe) ich ne (hd: eine) Sechs-Tage-Woche.
+Patient	Patient	00:45:46.645	2746.645	00:45:49.232	2749.232	00:00:02.587	2.587	Ähm, und mit Notdiensten noch dabei.
+Patient	Patient	00:45:50.228	2750.228	00:46:00.723	2760.723	00:00:10.495	10.495	Und, ähm. Da die Apotheken ja auch immer häufig länger aufhaben isses (hd: ist es) mir halt auch nich (hd: nicht) möglich, ähm. Zum Beispiel Abends noch irgendwelche Kurse zu besuchen.
+Patient	Patient	00:46:01.597	2761.597	00:46:08.294	2768.294	00:00:06.697	6.697	Alssis (hd: Also es ist) so'n- so'n (hd: so ein) Ding, deswegen möcht (hd: möchte) ich auch ganz gerne irgendwie in die Industrie oder: irgendwie zu ner (hd: einer) Behörde oder so.
+Patient	Patient	00:46:08.766	2768.766	00:46:11.083	2771.083	00:00:02.317	2.317	Um einfach irgendwie gregeltererere (hd: geregeltere).
+Patient	Patient	00:46:11.437	2771.437	00:46:12.936	2772.936	00:00:01.499	1.499	Arbeitszeiten zu haben.
+Patient	Patient	00:46:13.433	2773.433	00:46:16.212	2776.212	00:00:02.779	2.779	Dass ich noch irgendwie, 'n (hd: einen) Kurs machen kann oder so.
+Patient	Patient	00:46:17.195	2777.195	00:46:22.042	2782.042	00:00:04.847	4.847	Weil, ähm, das fehlt mir schon. Also ich geh (hd: gehe) in meiner Arbeit auf wenn ich die mache.
+Patient	Patient	00:46:23.342	2783.342	00:46:27.808	2787.808	00:00:04.466	4.466	Die macht mir auch Spaß, wenn ich auch 'n (hd: ein) entsprechendes Umfeld habe.
+Patient	Patient	00:46:28.305	2788.305	00:46:33.127	2793.127	00:00:04.822	4.822	Aber, ähm:, mir fehlt irgendwie was. D- was ich noch drumherum (hd: darum herum) machen kann.
+Patient	Patient	00:46:36.177	2796.177	00:46:38.927	2798.927	00:00:02.750	2.75	Also. Oder regelmäßig auch drumherum (hd: darum herum) machen kann.
+Patient	Patient	00:46:40.026	2800.026	00:46:45.335	2805.335	00:00:05.309	5.309	Ja. (....)
+Patient	Patient	00:46:49.915	2809.915	00:46:56.659	2816.659	00:00:06.744	6.744	Genau. Ja, ich würd (hd: würde) ganz gern noch irgendwie ma (hd: mal) so'n (hd: so einen) so'n (hd: so einen) Office. MS Office.
+Patient	Patient	00:46:57.809	2817.809	00:47:03.559	2823.559	00:00:05.750	5.75	Irgendwie: an der Volkshochschule oder, bei nem (hd: einem) andern (hd: anderen) Anbieter irgendwie machen so'n (hd: so einen) Kurs.
+Patient	Patient	00:47:04.553	2824.553	00:47:09.149	2829.149	00:00:04.596	4.596	(..) Wie gesagt ich will ganz gerne mal wieder 'n (hd: einen) Tanzkurs machen.
+Patient	Patient	00:47:10.149	2830.149	00:47:13.749	2833.749	00:00:03.600	3.6	(.) Ja aber es sind halt immer alles feste Zeiten.
+Patient	Patient	00:47:14.851	2834.851	00:47:18.170	2838.17	00:00:03.319	3.319	Und da weiß ich im Moment nich (hd: nicht) wie ich das. [Auto hupt:00:00:00] [/Auto hupt:00:00:00]
+Patient	Patient	00:47:19.401	2839.401	00:47:22.425	2842.425	00:00:03.024	3.024	Unterbringen soll ich mein (hd: meine) im Moment hab ich Zeit, aber.
+Patient	Patient	00:47:23.325	2843.325	00:47:31.825	2851.825	00:00:08.500	8.5	Es is (hd: ist) auch blöd wenn ich jetz (hd: jetzt) was anfange und ich kann's (hd: kann es) nich- nich (hd: nicht) weitermachen (.) irgendwie in drei Wochen oder so.
+Patient	Patient	00:47:36.234	2856.234	00:47:40.404	2860.404	00:00:04.170	4.17	[lacht:00:00:00] [/lacht:00:00:02] Ja, stimmt.
+Patient	Patient	00:47:55.998	2875.998	00:48:02.116	2882.116	00:00:06.118	6.118	[lacht:00:00:00] Ja. [/lacht:00:00:01] (..) Ja. 
+Patient	Patient	00:48:05.972	2885.972	00:48:06.532	2886.532	00:00:00.560	0.56	Ja.
+Patient	Patient	00:48:23.952	2903.952	00:48:29.031	2909.031	00:00:05.079	5.079	Ja. (..) Ich: werd (hd: werde) mir das nochmal überlegen weil.
