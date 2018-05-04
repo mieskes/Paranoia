@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import sys
 import os
 # sys.pasth.append(os.path.abspath("pyAudio"))
 import argparse
@@ -12,10 +11,8 @@ from pyAudioAnalysis import audioFeatureExtraction as ftExt
 Dependencies:
     -pyAudioAnalysis"""
 #TODO: Write Java Function in ClassfiyTabReader that gives a Txt File with the Audio name and TimeStamp of the Segments
-#TODO: Write a Function which retrives the Timestamps of the Therapists
 #TODO: Get a Loop Running which Calculates the FeatureSets (pyAudioAnalysis) for the Therapists Segments
 #TODO: Write Output into a .arff file
-#TODO: Details about the .arff file Format
 
 
 class AcousticFeatureExtractor:
@@ -61,7 +58,7 @@ class AcousticFeatureExtractor:
 
         """
         """GENERAL ASSUMPTIONS for this parser to work
-                -timestamps are segmented by the tabulator
+                -timestamps are seperated by the tabulator
                 -txt file contains the parseSequence"""
         listOfSegments = [] #Format: Timestamps of [Beginn] [End] [Duration]
         audioFileInSegmentTxt = ""
@@ -87,10 +84,10 @@ class AcousticFeatureExtractor:
             if audioFile == "" and counter <= len(self.audioFiles): #When in the segment txt no audiofile is linked check if a list of audiofiles is given by commandline
                 audioFile = self.audioFiles[counter]
             if audioFile != "":
-                    [Fs, x] = audioBasicIO.readAudioFile(audioFile);
-                    #Fs = FrameRate, x = Signal
-                    features = ftExt.stFeatureExtraction(x, Fs, 0.050*Fs, 0.025*Fs)
-                    print features
+                [Fs, x] = audioBasicIO.readAudioFile(audioFile)
+                #Fs = FrameRate, x = Signal
+                features = ftExt.stFeatureExtraction(x, Fs, 0.050*Fs, 0.025*Fs)
+                print features
 
 #============================================================
 
@@ -130,22 +127,22 @@ def main(segFiles=None,audFiles=None):
 def isFileOfFormat(filePath,fileFormat,throwError=False):
     #Checks if the Parameter fileFormat is Category and contains Multiple Fileformats
     #Iterates threw the Category (list)
-    if isinstance(fileFormat,list) or isinstance(fileFormat,tuple):
+    if isinstance(fileFormat, (tuple, list)):
         # print fileFormat
         for singleFileFormat in fileFormat:
             if os.path.isfile(filePath) and filePath.lower().endswith(str(singleFileFormat)):
                 return True
             else:
-                if throwError == True:
-                    raise IOError("Couldnt Find File or wasnt a %s File: \"%s\"" % (singleFileFormat,filePath))
+                if throwError is True:
+                    raise IOError("Couldnt Find File or wasnt a %s File: \"%s\"" % (singleFileFormat, filePath))
                 else:
-                    print "Couldnt Find File or wasnt a %s File: \"%s\"" % (singleFileFormat,filePath)
+                    print "Couldnt Find File or wasnt a %s File: \"%s\"" % (singleFileFormat, filePath)
         return False
     else:
         if os.path.isfile(filePath) and filePath.lower().endswith(str(fileFormat)):
             return True
         else:
-            if throwError == True:
+            if throwError is True:
                 raise IOError("Couldnt Find File or wasnt a %s File: \"%s\"" % (fileFormat,filePath))
             else:
                 print "Couldnt Find File or wasnt a %s File: \"%s\"" % (fileFormat,filePath)
@@ -154,5 +151,3 @@ def isFileOfFormat(filePath,fileFormat,throwError=False):
 if __name__ == "__main__":
     args = parser.parse_args() #get the Commandline Arguments
     main(args.segFiles,args.audFiles)
-    #cd /media/durzo/DATA1/Uni/Promotion/Code/AcousticFeatures
-    #./main.py -s "/media/durzo/DATA1/Uni/Promotion/Transkription/Backup/SurfaceFeatures/Target/Sessions/rating1-3/02003_25_211216_transkription_171017.txt"
