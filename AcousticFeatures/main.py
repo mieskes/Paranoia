@@ -13,6 +13,11 @@ Dependencies:
 #TODO: Write Java Function in ClassfiyTabReader that gives a Txt File with the Audio name and TimeStamp of the Segments
 #TODO: Get a Loop Running which Calculates the FeatureSets (pyAudioAnalysis) for the Therapists Segments
 #TODO: Write Output into a .arff file
+#TODO: segment wav Files and save the pieces (if KEEP = True, keep the files)
+#TODO: Implement check if cutted wav files already exist
+#TODO: Conversion mp3 to wav via pydub
+#TODO: check if file is already converted
+
 
 
 class AcousticFeatureExtractor:
@@ -23,6 +28,7 @@ class AcousticFeatureExtractor:
     #CONSTANTS for Fileformats
     TXT = ".txt"
     AUDIO = (".wav",".mp3")
+    KEEP = False # Keep the cutted wav files for future use
     #TODO: Find which AudioFormats are Usable with pyAudioAnalysis
 
     def __init__(self,txtFiles=None,audioFiles=None):
@@ -81,6 +87,7 @@ class AcousticFeatureExtractor:
     def calculateAccousticFeatures(self):
         for counter,singleSegmentFile in enumerate(self.segmentFiles):
             segmentTimeStamps, audioFile = self.parseSegmentFile(singleSegmentFile)
+            #TODO Add conversion from mp3 to wav
             if audioFile == "" and counter <= len(self.audioFiles): #When in the segment txt no audiofile is linked check if a list of audiofiles is given by commandline
                 audioFile = self.audioFiles[counter]
             if audioFile != "":
@@ -114,6 +121,8 @@ parser.add_argument('-a','--audFiles',type=str, metavar = '', nargs='*',
 parser.add_argument('--version', action='version', version='%(prog)s 1.1\n'
                                                     'written by M.Sc. Bjoern Buedenbender (FRA UAS)')
 #TODO: Consider the Creation of a logfile for the script, or look for a library that does it
+#TODO: Add Parser Argument -l for getting a Log File
+#TODO: Add Parser Argument for -k Keep the segmented Wav Files
 #TODO: Add Parser Argument for a Txt File Containing Links to the segmentTxt and the regarding audio
 #TODO: Write a Reader Function for the LinkTxtFile (Paths to segment and audio files)
 #TODO: Add an Argument for command line Based Execution of the Script like -x (execution)
@@ -147,7 +156,7 @@ def isFileOfFormat(filePath,fileFormat,throwError=False):
             else:
                 print "Couldnt Find File or wasnt a %s File: \"%s\"" % (fileFormat,filePath)
                 return False
-
+                
 if __name__ == "__main__":
     args = parser.parse_args() #get the Commandline Arguments
     main(args.segFiles,args.audFiles)
