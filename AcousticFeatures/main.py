@@ -156,7 +156,7 @@ def isFileOfFormat(filePath,fileFormat,throwError=False):
             else:
                 print "Couldnt Find File or wasnt a %s File: \"%s\"" % (fileFormat,filePath)
                 return False
-                
+
 if __name__ == "__main__":
     args = parser.parse_args() #get the Commandline Arguments
     main(args.segFiles,args.audFiles)
