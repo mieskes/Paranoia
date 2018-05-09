@@ -5,17 +5,17 @@ import os
 import argparse
 from pyAudioAnalysis import audioBasicIO
 from pyAudioAnalysis import audioFeatureExtraction as ftExt
-
+from pydub import AudioSegment
 
 """Written by Bjoern Buedenbender, 2018
 Dependencies:
-    -pyAudioAnalysis"""
+    -pyAudioAnalysis
+    -pyDub"""
 #TODO: Write Java Function in ClassfiyTabReader that gives a Txt File with the Audio name and TimeStamp of the Segments
 #TODO: Get a Loop Running which Calculates the FeatureSets (pyAudioAnalysis) for the Therapists Segments
 #TODO: Write Output into a .arff file
 #TODO: segment wav Files and save the pieces (if KEEP = True, keep the files)
 #TODO: Implement check if cutted wav files already exist
-#TODO: Conversion mp3 to wav via pydub
 #TODO: check if file is already converted
 
 
@@ -28,7 +28,7 @@ class AcousticFeatureExtractor:
     #CONSTANTS for Fileformats
     TXT = ".txt"
     AUDIO = (".wav",".mp3")
-    KEEP = False # Keep the cutted wav files for future use
+    KEEP = True # Keep the cutted wav files for future use
     #TODO: Find which AudioFormats are Usable with pyAudioAnalysis
 
     def __init__(self,txtFiles=None,audioFiles=None):
@@ -87,19 +87,57 @@ class AcousticFeatureExtractor:
     def calculateAccousticFeatures(self):
         for counter,singleSegmentFile in enumerate(self.segmentFiles):
             segmentTimeStamps, audioFile = self.parseSegmentFile(singleSegmentFile)
-            #TODO Add conversion from mp3 to wav
-            if audioFile == "" and counter <= len(self.audioFiles): #When in the segment txt no audiofile is linked check if a list of audiofiles is given by commandline
+            #TODO: Rework If Expression 1 line down
+            if audioFile == "" and counter <= len(self.audioFiles) and len(self.audioFiles) != 0: #When in the segment txt no audiofile is linked check if a list of audiofiles is given by commandline
                 audioFile = self.audioFiles[counter]
+            #Converts .mp3 to .wav for further processing
+            wavAudioFile = ""
             if audioFile != "":
-                [Fs, x] = audioBasicIO.readAudioFile(audioFile)
-                #Fs = FrameRate, x = Signal
-                features = ftExt.stFeatureExtraction(x, Fs, 0.050*Fs, 0.025*Fs)
-                print features
+                if audioFile[-3:].lower() == "mp3":
+                    #Check if converted wav file already exist
+                    wavAudioFile = os.path.splitext(audioFile)[0]+".wav"
+                    if not isFileOfFormat(wavAudioFile,".wav"):
+                        soundConverter = AudioSegment.from_file(audioFile,format=audioFile[-3:])
+                        fileHandle = soundConverter.export(wavAudioFile, format="wav")
+                        fileHandle.close()
+                        print "Converted .mp3 to .wav for further processing"
+                    else:
+                        print "Found already converted .wav form of .mp3, for further processing"
+                    audioFile = wavAudioFile
 
+                soundBuffer = AudioSegment.from_file(audioFile,format=audioFile[-3:])
+                for i,singleSegment in enumerate(segmentTimeStamps):
+                    tmpSoundSlice = soundBuffer[str2ms(segmentTimeStamps[i][0]):str2ms(segmentTimeStamps[i][1])]
+                    if self.KEEP: #Create a Directory for all cutted segments of the wav file
+                        directory = os.path.splitext(audioFile)[0]
+                        if not os.path.exists(directory):
+                            os.makedirs(directory)
+                        tmpPathSoundSlice = os.path.splitext(audioFile)[0]+"/segment%s.wav" %str(i).zfill(3)
+                        fileHandle = tmpSoundSlice.export(tmpPathSoundSlice, format="wav")
+                    # print "Timestamp(%i):" %i +str(singleSegment)
+                    # TODO: Fix problem of audioBasicIO
+                    [Fs, x] = audioBasicIO.readAudioFile(tmpPathSoundSlice)
+                    #Fs = FrameRate, x = Signal
+                    features = ftExt.stFeatureExtraction(x, Fs, 0.050*Fs, 0.025*Fs)
+                    print features
+            if not self.KEEP and wavAudioFile !="":
+                os.remove(wavAudioFile)
+                print "Deleted temporary converted .wav file"
 #============================================================
 
+def str2ms(s):
+    hr, mm, sec = map(float, s.split(':'))
+    inMs = ((hr * 60 + mm) * 60 + sec) * 1000
+    return int(inMs)
 
 
+def str2bool(v):
+    if v.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Boolean value expected.')
 #Initialize a arguments parser for commandline based execution of the Script
 parser = argparse.ArgumentParser(prog='AcousticFeatureExtraction',
                                  description='Extracts acoustic features from speech\n',
@@ -116,21 +154,37 @@ parser.add_argument('-a','--audFiles',type=str, metavar = '', nargs='*',
                     help="a single audio file or a list seperated by \" \" \n"
                     "containing the audio files of the speech\n"
                     "----------------------Allowed file formats---------------------\n"
-                    ".wav\n"
-                    ".mp3 ?\n")
+                    ".wav is prefered\n"
+                    ".mp3 will be converted to .wav\n")
+parser.add_argument('-x','--execute',type=str2bool, metavar = '', nargs='?', default=True,
+                    help="use boolean expressions like yes, true, 1 or no, false 0 to determine\n"
+                    "wethere the script should directly be executed\n"
+                    "default = True")
+parser.add_argument('-k','--keep',type=str2bool, metavar = '', nargs='?', default=True,
+                    help="The Default value True will keep all temporary files \n"
+                    "which were created in the process (converted .wav files)\n"
+                    "and the cutted .wav files from the segmentation")
 parser.add_argument('--version', action='version', version='%(prog)s 1.1\n'
                                                     'written by M.Sc. Bjoern Buedenbender (FRA UAS)')
 #TODO: Consider the Creation of a logfile for the script, or look for a library that does it
 #TODO: Add Parser Argument -l for getting a Log File
-#TODO: Add Parser Argument for -k Keep the segmented Wav Files
 #TODO: Add Parser Argument for a Txt File Containing Links to the segmentTxt and the regarding audio
 #TODO: Write a Reader Function for the LinkTxtFile (Paths to segment and audio files)
 #TODO: Add an Argument for command line Based Execution of the Script like -x (execution)
 
-
-def main(segFiles=None,audFiles=None):
+def main(segFiles=None,audFiles=None,execute=True,keep=True):
     AcFtEx = AcousticFeatureExtractor(segFiles,audFiles)
-    AcFtEx.calculateAccousticFeatures() #DEBUGGIN Purposes TODO DELETE
+
+    if keep:
+        AcFtEx.KEEP = True
+    else:
+        AcFtEx.KEEP = False
+        print "Set constant KEEP to False (Deletion of all temporary files after completion)"
+
+    if execute:
+        AcFtEx.calculateAccousticFeatures()
+    else:
+        print "Initialized class without execution of the script."
 
 
 def isFileOfFormat(filePath,fileFormat,throwError=False):
@@ -159,4 +213,4 @@ def isFileOfFormat(filePath,fileFormat,throwError=False):
 
 if __name__ == "__main__":
     args = parser.parse_args() #get the Commandline Arguments
-    main(args.segFiles,args.audFiles)
+    main(args.segFiles,args.audFiles,args.execute, args.keep)
