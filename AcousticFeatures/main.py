@@ -12,7 +12,6 @@ import time
 Dependencies:
     -pyDub
     -openSMILE (/usr/local/bin/SMILExtract)"""
-#TODO: Add an overwrite parameter (if the already existing slices shouldnt be used)
 #TODO: Change pyLinter snake_case naming convention for variables
 
 class AcousticFeatureExtractor(object):
@@ -189,7 +188,7 @@ class AcousticFeatureExtractor(object):
             else:
                 copy2(audioFile,self.dataDir)
                 print "Moved a copy of audiofile (%s) to the data (working dir of the script)" %audioFile
-                audioFile = self.dataDir + os.path.basename(audioFile)
+                audioFile = self.dataDir + "/" + os.path.basename(audioFile)
             soundBuffer = AudioSegment.from_file(audioFile,format=audioFile[-3:])
 
             #Create a Directory for all cutted segments of the wav file
@@ -203,12 +202,6 @@ class AcousticFeatureExtractor(object):
             #sets the outputname for .arff file containing the extracted features
             outputFile = self.featuresDir + "/AcFt_" +os.path.basename(audioFile)[0:-3] + "arff"
             self.openSMILEsettings[2] =  "-O " + outputFile
-
-            '''
-            NEXT STEPS:
-                    -Argument for overwrite (slices) ???
-            '''
-
             #variables for the audiofile (containing only speech of one speaker)
             concatAudioFile = AudioSegment.empty()
             pathConcatAudioFile = self.slicesDir  + "/only" + self.SPEAKER + "_" + os.path.basename(audioFile)[0:-3] + "wav"
@@ -217,19 +210,17 @@ class AcousticFeatureExtractor(object):
             #Slice the Audiofile in segments (slices)
             for i,singleSegment in enumerate(segmentTimeStamps):
                 tmpSoundSlice = soundBuffer[singleSegment[0]:singleSegment[1]]
-                if (not self.exeMode == 3) and (not isFileOfFormat(pathConcatAudioFile,".wav",False)): #TODO: Consider ADD an Overwrite Parameter
+                if (not isFileOfFormat(pathConcatAudioFile,".wav",False) or self.OVERWRITE) and (not self.exeMode == 3): 
                     concatAudioFile += tmpSoundSlice
                 tmpPathSoundSlice = self.setNamesOfSlices(singleSegment[0],singleSegment[1],i)
-                if not isFileOfFormat(tmpPathSoundSlice,".wav") and self.exeMode > 1: #TODO: Consider ADD an Overwrite Parameter
+                if (not isFileOfFormat(tmpPathSoundSlice,".wav",False) or self.OVERWRITE) and self.exeMode > 1 :
                     fileHandle = tmpSoundSlice.export(tmpPathSoundSlice, format="wav")
                 if self.exeMode == 3:
                     self.extractFeatures(tmpPathSoundSlice)
             end = time.time()       #Performance Measuere (Concatenating AudioSegments)
             print (end -start)      #Performance Measuere (Concatenating AudioSegments)
-            '''debugging: Testing Configurations of openSmile uncomment line below'''
-            # self.extractFeatures("/media/durzo/69FDAA69060E624F/Uni/Promotion/Aufnahmen/02003_Therapiesitzung22und23_141216_slicesDir/T-segment0000.wav")
 
-            if not isFileOfFormat(pathConcatAudioFile,".wav"): #TODO: Consider ADD an Overwrite Parameter
+            if not isFileOfFormat(pathConcatAudioFile,".wav") or self.OVERWRITE:
                 print "Creating one audio file containing only: [%s]" % self.SPEAKER
                 fileHandle = concatAudioFile.export(pathConcatAudioFile, format="wav")
                 fileHandle.close()
@@ -396,7 +387,7 @@ def main(segFiles=None,execute=1,keep=True,naming=1,therapist=True,backchannels=
     AcFtEx.KEEP = keep
     print "Set constant KEEP to %s" %(str(keep))
     AcFtEx.OVERWRITE = overwrite
-    print "Set constant KEEP to %s" %(str(keep))
+    print "Set constant OVERWRITE to %s" %(str(overwrite))
 
     if backchannels == 0 or backchannels == None:
         AcFtEx.RMBACKCHANNELS = False
