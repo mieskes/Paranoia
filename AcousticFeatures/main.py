@@ -4,6 +4,7 @@ import os
 import argparse
 from pydub import AudioSegment
 from shutil import rmtree
+from shutil import copy2
 import itertools
 import time
 
@@ -49,6 +50,7 @@ class AcousticFeatureExtractor(object):
     #CONSTANTS for Fileformats
     TXT = ".txt"
     AUDIO = (".wav", ".mp3")
+    OVERWRITE = False #Overwrite all old files (converted mp3, slices, etc)
     KEEP = True # Keep the cutted wav files for future use
     THERAPIST = True #True extracts Features for Therapist, False for Patient
     SPEAKER = "T"
@@ -59,6 +61,7 @@ class AcousticFeatureExtractor(object):
 
     slicesDir = ""
     featuresDir = ""
+    dataDir = "data"
     namingOfSlices = 1
     exeMode = 1
     parseSequence="Therapeut\tTherapeut"
@@ -78,6 +81,10 @@ class AcousticFeatureExtractor(object):
         else:
             self.parseSequence = self.P_PARSESEQ
             self.SPEAKER = "P"
+        #creates a dir in the root of this script named data
+        self.dataDir = os.path.dirname(os.path.abspath(__file__)) + "/data"
+        if not os.path.exists(self.dataDir):
+            os.makedirs(self.dataDir)
 
     def getSegments(self,singleSegmentFile):
         audioFile = ""
@@ -130,9 +137,8 @@ class AcousticFeatureExtractor(object):
 
 
     def convertToWav(self,audioFile):
-        wavAudioFile = ""
+        wavAudioFile = self.dataDir +"/" + os.path.splitext(os.path.basename(audioFile))[0]+".wav"
         #Checks if converted wav file already exist
-        wavAudioFile = os.path.splitext(audioFile)[0]+".wav"
         if not isFileOfFormat(wavAudioFile,".wav"):
             soundConverter = AudioSegment.from_file(audioFile,format=audioFile[-3:])
             # soundConverter.set_channels(1)
@@ -180,6 +186,10 @@ class AcousticFeatureExtractor(object):
             if audioFile[-3:].lower() == "mp3":  #Converts .mp3 to .wav for further processing
                 audioFile = self.convertToWav(audioFile)
                 self.convertedAudioFiles.append(audioFile)
+            else:
+                copy2(audioFile,self.dataDir)
+                print "Moved a copy of audiofile (%s) to the data (working dir of the script)" %audioFile
+                audioFile = self.dataDir + os.path.basename(audioFile)
             soundBuffer = AudioSegment.from_file(audioFile,format=audioFile[-3:])
 
             #Create a Directory for all cutted segments of the wav file
@@ -197,7 +207,6 @@ class AcousticFeatureExtractor(object):
             '''
             NEXT STEPS:
                     -Argument for overwrite (slices) ???
-                    -compare the two files in the folder /media/durzo/69FDAA69060E624F/Backup
             '''
 
             #variables for the audiofile (containing only speech of one speaker)
@@ -234,7 +243,10 @@ class AcousticFeatureExtractor(object):
 
     def executeFtExtraction(self):
         for singleSegmentFile in self.segmentFiles:
+            start = time.time()                                                         #Performance Measure (single segmentfile)
             self.getSpeechOfOneSpeaker(singleSegmentFile)
+            end = time.time()                                                           #Performance Measure (single segmentfile)
+            print "Execution of file (%s) in %s" % (singleSegmentFile,str(end -start))  #Performance Measure (single segmentfile)
 
 #=======================END OF CLASS===========================================
 
@@ -342,7 +354,7 @@ parser.add_argument('-x','--executeMode',type=int, metavar = '', nargs='?', defa
                     "\t0: Don't execute the script\n"
                     "\t1: Extract features only on the new audio file (containing only 1 speaker)\n"
                     "\t2: Like option 1 but in addition generate the slices\n"
-                    "\t3: Extract features based on the slices")
+                    "\t3: Extract features based on the slices (important: add -o True)")
 parser.add_argument('-n','--naming',type=int, metavar = '', nargs='?', default=1,
                     help="determines the naming of the slices (default = 1)\n"
                     "\t1: ascending digits sequence (0000-9999)\n"
@@ -363,22 +375,29 @@ parser.add_argument('-b','--backchannels',type=float, metavar = '', nargs='?', d
                     "no backchannels will be removed, and the segments contain overlap for the speakers.\n"
                     "\tBackhcannels: are utterances of the other speaker. For example,\n"
                     "\twhile the therapist speaks the patients say mhm, aha, ...")
-
-parser.add_argument('--version', action='version', version='%(prog)s 2.0\n'
+parser.add_argument('-o','--overwrite',type=str2bool, metavar = '', nargs='?', default=False,
+                    help="The scripts checks if a file was already converted and sliced.\n"
+                    "This option determines if the old files shall be used\n"
+                    "In default (False) nothing will be overwritten\n"
+                    "True is recommended for execution mode 3, features based on slices!")
+parser.add_argument('--version', action='version', version='%(prog)s 2.1\n'
                                                     'written by M.Sc. Bjoern Buedenbender (FRA UAS)')
 #TODO: Consider the Creation of a logfile for the script, or look for a library that does it
 #TODO: Add Parser Argument -l for getting a Log File
 #TODO: Add Parser Argument for a Txt File Containing Links to the segmentTxt and the regarding audio
 
-def main(segFiles=None,execute=1,keep=True,naming=1,therapist=True,backchannels=500.0):
+def main(segFiles=None,execute=1,keep=True,naming=1,therapist=True,backchannels=500.0,overwrite=False):
+    print "\n======================================================================="
+    print "\t\tConfiguration of Feature Extractor Class"
+    print "======================================================================="
     AcFtEx = AcousticFeatureExtractor(segFiles,therapist)
     AcFtEx.namingOfSlices = naming  #determines the variant of naming
     AcFtEx.exeMode = execute        #determines the execution mode (default 1)
-    if keep:
-        AcFtEx.KEEP = True
-    else:
-        AcFtEx.KEEP = False
-        print "Set constant KEEP to False (Deletion of all temporary files after completion)"
+    AcFtEx.KEEP = keep
+    print "Set constant KEEP to %s" %(str(keep))
+    AcFtEx.OVERWRITE = overwrite
+    print "Set constant KEEP to %s" %(str(keep))
+
     if backchannels == 0 or backchannels == None:
         AcFtEx.RMBACKCHANNELS = False
         AcFtEx.MAXBCDURATION = 0.0
@@ -386,6 +405,8 @@ def main(segFiles=None,execute=1,keep=True,naming=1,therapist=True,backchannels=
     elif not backchannels == 500.0:
         AcFtEx.MAXBCDURATION = backchannels
         print "Set the maximum duration to %s ms. Every interference below will be removed from segments" % str(AcFtEx.MAXBCDURATION)
+    print "=======================================================================\n" #End of the configuration of the script
+
     if not (execute == 0):
         AcFtEx.executeFtExtraction()
     else:
@@ -395,6 +416,6 @@ def main(segFiles=None,execute=1,keep=True,naming=1,therapist=True,backchannels=
 if __name__ == "__main__":
     start = time.time()                                         #Performance Measure (Whole Script)
     args = parser.parse_args() #get the Commandline Arguments
-    main(args.segFiles,args.executeMode, args.keep, args.naming, args.therapist,args.backchannels)
+    main(args.segFiles,args.executeMode, args.keep, args.naming, args.therapist,args.backchannels,args.overwrite)
     end = time.time()                                           #Performance Measure (Whole Script)
-    print "Runtime of the whole script:" + str(end -start)      #Performance Measure (Whole Script)
+    print "Runtime of the whole script (for n=%s segmentfiles): %s seconds" %(str(len(args.segFiles)),str(end -start))     #Performance Measure (Whole Script)
