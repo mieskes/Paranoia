@@ -1,18 +1,13 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+from ftex_utils import *
 import os
-import argparse
 from pydub import AudioSegment
-from shutil import rmtree
-from shutil import copy2
-import itertools
 import time
+from shutil import rmtree, copy2
 
 """Written by Bjoern Buedenbender, 2018
 Dependencies:
     -pyDub
     -openSMILE (/usr/local/bin/SMILExtract)"""
-#TODO: Change pyLinter snake_case naming convention for variables
 
 class AcousticFeatureExtractor(object):
     """Class for handling the Extraction of accoustic features from speech.
@@ -45,6 +40,7 @@ class AcousticFeatureExtractor(object):
     audioFiles = []
     segmentFiles = []    #List of .txt File for the Timestamp of the Segments
     convertedAudioFiles = [] #List of Files that got converted
+    executionTime4oneSegmentFile = [] #Performance meassure
 
     #CONSTANTS for Fileformats
     TXT = ".txt"
@@ -210,7 +206,7 @@ class AcousticFeatureExtractor(object):
             #Slice the Audiofile in segments (slices)
             for i,singleSegment in enumerate(segmentTimeStamps):
                 tmpSoundSlice = soundBuffer[singleSegment[0]:singleSegment[1]]
-                if (not isFileOfFormat(pathConcatAudioFile,".wav",False) or self.OVERWRITE) and (not self.exeMode == 3): 
+                if (not isFileOfFormat(pathConcatAudioFile,".wav",False) or self.OVERWRITE) and (not self.exeMode == 3):
                     concatAudioFile += tmpSoundSlice
                 tmpPathSoundSlice = self.setNamesOfSlices(singleSegment[0],singleSegment[1],i)
                 if (not isFileOfFormat(tmpPathSoundSlice,".wav",False) or self.OVERWRITE) and self.exeMode > 1 :
@@ -236,177 +232,15 @@ class AcousticFeatureExtractor(object):
         for singleSegmentFile in self.segmentFiles:
             start = time.time()                                                         #Performance Measure (single segmentfile)
             self.getSpeechOfOneSpeaker(singleSegmentFile)
-            end = time.time()                                                           #Performance Measure (single segmentfile)
+            end = time.time()                                                               #Performance Measure (single segmentfile)
+            self.executionTime4oneSegmentFile.append([singleSegmentFile,str(end -start)])                     #Performance Measure (single segmentfile)
             print "Execution of file (%s) in %s" % (singleSegmentFile,str(end -start))  #Performance Measure (single segmentfile)
-
+    def showPerformance(self):
+        #TODO: Add Performance Meassures for: Rendering of the "1 Speaker Audio File" and Konvertierung
+        if self.exeMode != 0:
+            print "===================Performance / Segmentfile==========================="
+            for perf in self.executionTime4oneSegmentFile:
+                print "Performance (in ms) for: \t" + perf[0]
+                print "Complete Execution: \t\t" + str(perf[1])
+            print "======================================================================="
 #=======================END OF CLASS===========================================
-
-#=====================Utility functions========================================
-def str2ms(s):
-    hr, mm, sec = map(float, s.split(':'))
-    inMs = ((hr * 60 + mm) * 60 + sec) * 1000
-    return int(inMs)
-
-def convListstr2ms(somelist):
-    convertedlist = []
-    for start,end,duration in somelist:
-        convertedlist.append([str2ms(start),str2ms(end),str2ms(duration)])
-    return convertedlist
-
-def str2bool(v):
-    if v.lower() in ('yes', 'true', 't', 'y', '1'):
-        return True
-    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
-        return False
-    else:
-        raise argparse.ArgumentTypeError('Boolean value expected.')
-
-def isFileOfFormat(filePath,fileFormat,verbose=True,throwError=False):
-    #Checks if the Parameter fileFormat is Category and contains multiple fileformats
-    #Iterates threw the Category (list)
-    if isinstance(fileFormat, (tuple, list)):
-        # print fileFormat
-        for singleFileFormat in fileFormat:
-            if os.path.isfile(filePath) and filePath.lower().endswith(str(singleFileFormat)):
-                return True
-            else:
-                if throwError is True:
-                    raise IOError("Couldnt Find File or wasnt a %s File: \"%s\"" % (singleFileFormat, filePath))
-                elif verbose is True:
-                    print "Couldnt Find File or wasnt a %s File: \"%s\"" % (singleFileFormat, filePath)
-        return False
-    else: #executed when the argument fileFormat only contains a single fileformat
-        if os.path.isfile(filePath) and filePath.lower().endswith(str(fileFormat)):
-            return True
-        else:
-            if throwError is True:
-                raise IOError("Couldnt Find File or wasnt a %s File: \"%s\"" % (fileFormat,filePath))
-            elif verbose is True:
-                print "Couldnt Find File or wasnt a %s File: \"%s\"" % (fileFormat,filePath)
-                return False
-
-#==========================================================================================00
-#The 3 Functions below belong together:
-#   remove_ints takes a List A from which all overlaps with a second list (intervalls), shall
-#   be removed if the overlap is bigger than maxDuration (Default: 500 ms)
-#Used in PARANOIA Project to subtract backchannels from the segments of Speaker 1
-#==========================================================================================00
-def remove_ints(listA,intervals,maxDuration=500):
-    cleanedListA = []
-    for targetSegment in listA:
-        overlapsFound=[]
-
-        for s_interval in intervals:
-            tmp = range_intersect(targetSegment,s_interval)
-            if tmp != None:
-                overlapsFound.append(tmp)
-        if len(overlapsFound)>0:
-            # Remove all overlaps which are longer then maxDuration
-            overlapsFound = [ elem for elem in overlapsFound if elem[2] <= maxDuration] #500 MAX Duration für Backchannel
-            cleanedListA.append(cut_ints(overlapsFound, targetSegment[0], targetSegment[1]))
-        else:
-            cleanedListA.append([targetSegment])
-    cleanedListA = list(itertools.chain(*cleanedListA))
-    return cleanedListA
-
-def cut_ints(intervals, mn, mx):
-    results = []
-    next_start = mn
-    for x in intervals:
-        if next_start < x[0]:
-            results.append([next_start,x[0]])
-            next_start = x[1]
-        elif next_start < x[1]:
-            next_start = x[1]
-    if next_start < mx:
-        results.append([next_start, mx])
-    return results
-
-def range_intersect(x,y):
-    z = (max(x[0],y[0]),min(x[1],y[1]))
-    if (z[0] < z[1]):
-        return [z[0], z[1], z[1] - z[0]] # to make this an inclusive range
-
-#=========================Commandline Parser===================================
-#Initialize a arguments parser for commandline based execution of the Script
-parser = argparse.ArgumentParser(prog='AcousticFeatureExtraction',
-                                 description='Extracts acoustic features from speech\n',
-                                 formatter_class=argparse.RawTextHelpFormatter)
-parser.add_argument('-s','--segFiles',type=str, metavar = '', nargs='*',
-                    help="a single .txt file or a list seperated by \" \" \n"
-                    "containing the segmetns of the speech\n"
-                    "Content of the File should look like the example below:\n"
-                    "-----------------------exampleTxtFile.txt---------------------\n"
-                    "[NameAndPathToTheAudioFiles] Optional or give it in via a -a in matching order\n"
-                    "Therapeut Therapeut 00:00:00 000 00:00:00 000 00:00:00\n"
-                    "Name of the Segment | Name of the Segment | TimeStamp Begin | TimeStamp End | Timestamp Duration")
-parser.add_argument('-x','--executeMode',type=int, metavar = '', nargs='?', default=1,
-                    help="Determines the execution mode (default = 1)\n"
-                    "\t0: Don't execute the script\n"
-                    "\t1: Extract features only on the new audio file (containing only 1 speaker)\n"
-                    "\t2: Like option 1 but in addition generate the slices\n"
-                    "\t3: Extract features based on the slices (important: add -o True)")
-parser.add_argument('-n','--naming',type=int, metavar = '', nargs='?', default=1,
-                    help="determines the naming of the slices (default = 1)\n"
-                    "\t1: ascending digits sequence (0000-9999)\n"
-                    "\t2: containing the start of the segment in ms\n"
-                    "\t3: containing start and end of the segment ins ms")
-parser.add_argument('-k','--keep',type=str2bool, metavar = '', nargs='?', default=True,
-                    help="The Default value True will keep all temporary files \n"
-                    "which were created in the process (converted .wav files)\n"
-                    "and the cutted .wav files from the segmentation")
-parser.add_argument('-t','--therapist',type=str2bool, metavar = '', nargs='?', default=True,
-                    help="Determines the target speaker, from whom the features \n"
-                    "shall be extracted. The default value is true, resulting in ft extraction\n"
-                    "for the Therapist. False or 0 is for extracion of patients acoustic ft.")
-parser.add_argument('-b','--backchannels',type=float, metavar = '', nargs='?', default=500,
-                    help="determines the maximum duration for backchannels (def. below). Everything below\n"
-                    "that duration is removed from the segments. Input is in ms and format is float.\n"
-                    "The default value for backchannel is 500.0 ms. If it set to 0\n"
-                    "no backchannels will be removed, and the segments contain overlap for the speakers.\n"
-                    "\tBackhcannels: are utterances of the other speaker. For example,\n"
-                    "\twhile the therapist speaks the patients say mhm, aha, ...")
-parser.add_argument('-o','--overwrite',type=str2bool, metavar = '', nargs='?', default=False,
-                    help="The scripts checks if a file was already converted and sliced.\n"
-                    "This option determines if the old files shall be used\n"
-                    "In default (False) nothing will be overwritten\n"
-                    "True is recommended for execution mode 3, features based on slices!")
-parser.add_argument('--version', action='version', version='%(prog)s 2.1\n'
-                                                    'written by M.Sc. Bjoern Buedenbender (FRA UAS)')
-#TODO: Consider the Creation of a logfile for the script, or look for a library that does it
-#TODO: Add Parser Argument -l for getting a Log File
-#TODO: Add Parser Argument for a Txt File Containing Links to the segmentTxt and the regarding audio
-
-def main(segFiles=None,execute=1,keep=True,naming=1,therapist=True,backchannels=500.0,overwrite=False):
-    print "\n======================================================================="
-    print "\t\tConfiguration of Feature Extractor Class"
-    print "======================================================================="
-    AcFtEx = AcousticFeatureExtractor(segFiles,therapist)
-    AcFtEx.namingOfSlices = naming  #determines the variant of naming
-    AcFtEx.exeMode = execute        #determines the execution mode (default 1)
-    AcFtEx.KEEP = keep
-    print "Set constant KEEP to %s" %(str(keep))
-    AcFtEx.OVERWRITE = overwrite
-    print "Set constant OVERWRITE to %s" %(str(overwrite))
-
-    if backchannels == 0 or backchannels == None:
-        AcFtEx.RMBACKCHANNELS = False
-        AcFtEx.MAXBCDURATION = 0.0
-        print "Set constant RMBACKCHANNELS to False (No backchannels will be removed from segments)"
-    elif not backchannels == 500.0:
-        AcFtEx.MAXBCDURATION = backchannels
-        print "Set the maximum duration to %s ms. Every interference below will be removed from segments" % str(AcFtEx.MAXBCDURATION)
-    print "=======================================================================\n" #End of the configuration of the script
-
-    if not (execute == 0):
-        AcFtEx.executeFtExtraction()
-    else:
-        print "Initialized class without execution of the script."
-    if not AcFtEx.KEEP:
-        AcFtEx.cleanUp()
-if __name__ == "__main__":
-    start = time.time()                                         #Performance Measure (Whole Script)
-    args = parser.parse_args() #get the Commandline Arguments
-    main(args.segFiles,args.executeMode, args.keep, args.naming, args.therapist,args.backchannels,args.overwrite)
-    end = time.time()                                           #Performance Measure (Whole Script)
-    print "Runtime of the whole script (for n=%s segmentfiles): %s seconds" %(str(len(args.segFiles)),str(end -start))     #Performance Measure (Whole Script)
