@@ -3,6 +3,7 @@ import os
 from pydub import AudioSegment
 import time
 from shutil import rmtree, copy2
+import logging
 
 """Written by Bjoern Buedenbender, 2018
 Dependencies:
@@ -57,6 +58,7 @@ class AcousticFeatureExtractor(object):
     slicesDir = ""
     featuresDir = ""
     dataDir = "data"
+    rootDir = ""
     namingOfSlices = 1
     exeMode = 1
     parseSequence="Therapeut\tTherapeut"
@@ -77,7 +79,8 @@ class AcousticFeatureExtractor(object):
             self.parseSequence = self.P_PARSESEQ
             self.SPEAKER = "P"
         #creates a dir in the root of this script named data
-        self.dataDir = os.path.dirname(os.path.abspath(__file__)) + "/data"
+        self.rootDir = os.path.dirname(os.path.abspath(__file__))
+        self.dataDir = self.rootDir + "/data"
         if not os.path.exists(self.dataDir):
             os.makedirs(self.dataDir)
 
@@ -192,7 +195,7 @@ class AcousticFeatureExtractor(object):
             if not os.path.exists(self.slicesDir):
                 os.makedirs(self.slicesDir)
             #Create a Directory for all feature files (.arff)
-            self.featuresDir = os.path.dirname(audioFile) + "/ExtractedFeatures"
+            self.featuresDir = self.rootDir + "/ExtractedFeatures"
             if not os.path.exists(self.featuresDir):
                 os.makedirs(self.featuresDir)
             #sets the outputname for .arff file containing the extracted features
@@ -238,9 +241,12 @@ class AcousticFeatureExtractor(object):
     def showPerformance(self):
         #TODO: Add Performance Meassures for: Rendering of the "1 Speaker Audio File" and Konvertierung
         if self.exeMode != 0:
-            print "===================Performance / Segmentfile==========================="
+            print "===================" + bcolors.HEADER + "Performance / Segmentfile" + bcolors.ENDC + "==========================="
             for perf in self.executionTime4oneSegmentFile:
                 print "Performance (in ms) for: \t" + perf[0]
-                print "Complete Execution: \t\t" + str(perf[1])
+                print "Complete Execution: \t\t" + bcolors.OKGREEN + str(perf[1]) + bcolors.ENDC
             print "======================================================================="
+    '''TODO: Delete of the DebugTestfunction'''
+    def testLogger(self):
+        print "testLogger:"
 #=======================END OF CLASS===========================================

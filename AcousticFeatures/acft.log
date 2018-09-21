@@ -1,0 +1,12 @@
+2018-09-21 19:10:31,604 [MainThread  ] [INFO ]  =======================================================================
+2018-09-21 19:10:31,605 [MainThread  ] [INFO ]  [95m		Configuration of Feature Extractor Class[0m
+2018-09-21 19:10:31,605 [MainThread  ] [INFO ]  =======================================================================
+2018-09-21 19:10:31,605 [MainThread  ] [INFO ]  Set constant KEEP to True
+2018-09-21 19:10:31,605 [MainThread  ] [INFO ]  Set constant OVERWRITE to False
+2018-09-21 19:10:31,605 [MainThread  ] [INFO ]  Set the Backchannel maximum duration to 5000.0 ms.
+2018-09-21 19:10:31,605 [MainThread  ] [INFO ]  		Every interference below will be removed from segments
+2018-09-21 19:10:31,606 [MainThread  ] [INFO ]  =======================================================================
+2018-09-21 19:10:31,606 [MainThread  ] [INFO ]  Runtime of the whole script (for n=0 segmentfiles): 0.0020899772644 seconds
+2018-09-21 19:10:31,606 [MainThread  ] [INFO ]  END OF LOG
+
+

@@ -5,7 +5,26 @@ import time
 # from AcousticFeatures.ftex_utils import *
 from ftex_utils import *
 from acousticftextractor import AcousticFeatureExtractor
+import logging
+import os
 #TODO: Change pyLinter snake_case naming convention for variables
+
+'''Configuration of the Logger
+        Levels:
+            logging.INFO            All Messages
+            logging.DEBUG           Debug Messages + Warnings
+            logging.WARNING         Only Warnings'''
+logFileFormatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s")
+logConsoleFormatter =  logging.Formatter("")
+rootLogger = logging.getLogger(__name__)
+rootLogger.setLevel(logging.INFO)
+rootDir = os.path.dirname(os.path.abspath(__file__))
+fileHandler = logging.FileHandler("{0}/{1}.log".format(rootDir, "acft"))
+fileHandler.setFormatter(logFileFormatter)
+rootLogger.addHandler(fileHandler)
+
+consoleHandler = logging.StreamHandler()
+consoleHandler.setFormatter(logConsoleFormatter)
 
 #=========================Commandline Parser===================================
 #Initialize a arguments parser for commandline based execution of the Script
@@ -51,6 +70,9 @@ parser.add_argument('-o','--overwrite',type=str2bool, metavar = '', nargs='?', d
                     "This option determines if the old files shall be used\n"
                     "In default (False) nothing will be overwritten\n"
                     "True is recommended for execution mode 3, features based on slices!")
+parser.add_argument('-v','--verbose',type=str2bool, metavar = '', nargs='?', default=True,
+                    help="If True prints Log Messages (Error, Warning, Info, Performance)\n"
+                    "in the terminal window (Default: True)\n")
 parser.add_argument('--version', action='version', version='%(prog)s 2.1\n'
                                                     'written by M.Sc. Bjoern Buedenbender (FRA UAS)')
 #TODO: Consider the Creation of a logfile for the script, or look for a library that does it
@@ -58,25 +80,28 @@ parser.add_argument('--version', action='version', version='%(prog)s 2.1\n'
 #TODO: Add Parser Argument for a Txt File Containing Links to the segmentTxt and the regarding audio
 
 def main(segFiles=None,execute=1,keep=True,naming=1,therapist=True,backchannels=500.0,overwrite=False):
-    print "\n======================================================================="
-    print "\t\tConfiguration of Feature Extractor Class"
-    print "======================================================================="
+    #START NACHRICHT
+    rootLogger.info("=======================================================================")
+    rootLogger.info(bcolors.HEADER +"\t\tConfiguration of Feature Extractor Class" + bcolors.ENDC)
+    rootLogger.info("=======================================================================")
     AcFtEx = AcousticFeatureExtractor(segFiles,therapist)
     AcFtEx.namingOfSlices = naming  #determines the variant of naming
     AcFtEx.exeMode = execute        #determines the execution mode (default 1)
     AcFtEx.KEEP = keep
-    print "Set constant KEEP to %s" %(str(keep))
+    rootLogger.info("Set constant KEEP to %s" %(str(keep)))
     AcFtEx.OVERWRITE = overwrite
-    print "Set constant OVERWRITE to %s" %(str(overwrite))
+    rootLogger.info("Set constant OVERWRITE to %s" %(str(overwrite)))
 
     if backchannels == 0 or backchannels == None:
         AcFtEx.RMBACKCHANNELS = False
         AcFtEx.MAXBCDURATION = 0.0
-        print "Set constant RMBACKCHANNELS to False (No backchannels will be removed from segments)"
+        rootLogger.info("Set constant RMBACKCHANNELS to False (No backchannels will be")
+        rootLogger.info("\t\tremoved from segments)")
     elif not backchannels == 500.0:
         AcFtEx.MAXBCDURATION = backchannels
-        print "Set the maximum duration to %s ms. Every interference below will be removed from segments" % str(AcFtEx.MAXBCDURATION)
-    print "=======================================================================\n" #End of the configuration of the script
+        rootLogger.info("Set the Backchannel maximum duration to %s ms."  % str(AcFtEx.MAXBCDURATION))
+        rootLogger.info("\t\tEvery interference below will be removed from segments")
+    rootLogger.info("=======================================================================") #End of the configuration of the script
 
     if not (execute == 0):
         AcFtEx.executeFtExtraction()
@@ -85,12 +110,18 @@ def main(segFiles=None,execute=1,keep=True,naming=1,therapist=True,backchannels=
     if not AcFtEx.KEEP:
         AcFtEx.cleanUp()
     AcFtEx.showPerformance()
+    AcFtEx.testLogger()
+
 if __name__ == "__main__":
     start = time.time()                                         #Performance Measure (Whole Script)
     args = parser.parse_args() #get the Commandline Arguments
+    #determines if log mesages shall be printed in console (as well as the log file)
+    if args.verbose:
+        rootLogger.addHandler(consoleHandler)
     main(args.segFiles,args.executeMode, args.keep, args.naming, args.therapist,args.backchannels,args.overwrite)
     end = time.time()                                           #Performance Measure (Whole Script)
     if args.segFiles != None:
-        print "Runtime of the whole script (for n=%s segmentfiles): %s seconds" %(str(len(args.segFiles)),str(end -start))     #Performance Measure (Whole Script)
+        rootLogger.info("Runtime of the whole script (for n=%s segmentfiles): %s seconds" %(str(len(args.segFiles)),str(end -start)))     #Performance Measure (Whole Script)
     else:
-        print "Runtime of the whole script (for n=%s segmentfiles): %s seconds" %("0",str(end -start))     #Performance Measure (Whole Script)
+        rootLogger.info("Runtime of the whole script (for n=%s segmentfiles): %s seconds" %("0",str(end -start)))     #Performance Measure (Whole Script)
+    rootLogger.info("END OF LOG\n\n")
