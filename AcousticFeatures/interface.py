@@ -16,7 +16,7 @@ import os
             logging.WARNING         Only Warnings'''
 logFileFormatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s")
 logConsoleFormatter =  logging.Formatter("")
-rootLogger = logging.getLogger(__name__)
+rootLogger = logging.getLogger()
 rootLogger.setLevel(logging.INFO)
 rootDir = os.path.dirname(os.path.abspath(__file__))
 fileHandler = logging.FileHandler("{0}/{1}.log".format(rootDir, "acft"))
@@ -101,7 +101,7 @@ def main(segFiles=None,execute=1,keep=True,naming=1,therapist=True,backchannels=
         AcFtEx.MAXBCDURATION = backchannels
         rootLogger.info("Set the Backchannel maximum duration to %s ms."  % str(AcFtEx.MAXBCDURATION))
         rootLogger.info("\t\tEvery interference below will be removed from segments")
-    rootLogger.info("=======================================================================") #End of the configuration of the script
+    #End of the configuration of the script
 
     if not (execute == 0):
         AcFtEx.executeFtExtraction()
@@ -110,7 +110,6 @@ def main(segFiles=None,execute=1,keep=True,naming=1,therapist=True,backchannels=
     if not AcFtEx.KEEP:
         AcFtEx.cleanUp()
     AcFtEx.showPerformance()
-    AcFtEx.testLogger()
 
 if __name__ == "__main__":
     start = time.time()                                         #Performance Measure (Whole Script)

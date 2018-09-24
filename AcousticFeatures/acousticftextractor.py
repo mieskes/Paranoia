@@ -5,6 +5,8 @@ import time
 from shutil import rmtree, copy2
 import logging
 
+logger = logging.getLogger(__name__)
+
 """Written by Bjoern Buedenbender, 2018
 Dependencies:
     -pyDub
@@ -42,6 +44,8 @@ class AcousticFeatureExtractor(object):
     segmentFiles = []    #List of .txt File for the Timestamp of the Segments
     convertedAudioFiles = [] #List of Files that got converted
     executionTime4oneSegmentFile = [] #Performance meassure
+    perfConcatenating = []  #Performance meassure
+    perfFtExtraction = []  #Performance meassure
 
     #CONSTANTS for Fileformats
     TXT = ".txt"
@@ -83,6 +87,7 @@ class AcousticFeatureExtractor(object):
         self.dataDir = self.rootDir + "/data"
         if not os.path.exists(self.dataDir):
             os.makedirs(self.dataDir)
+            logger.info("Created the directory for the workingdata: "+self.dataDir)
 
     def getSegments(self,singleSegmentFile):
         audioFile = ""
@@ -123,10 +128,13 @@ class AcousticFeatureExtractor(object):
             #Checks if the Location to the AudioFiles is Present saves it in local var
             firstLine = f.readline()
             if (firstLine[:1] == "[") and (firstLine[-2:-1] == "]"):
-                print "Found audiofile reference"
+                logger.info("Found audiofile reference")
                 linkToAudioFile = firstLine[1:-2] #Removing the Parser Seq [ and ] from string
                 if isFileOfFormat(linkToAudioFile,self.AUDIO):
                     audioFileInSegmentTxt = linkToAudioFile
+            else:
+                logger.warning("No audiofile reference found in the segmentfile(\"%s\")" %singleSegmentFile)
+                logger.info("Please add a reference (absolut path) in the first line of the segmentfile in brackets i.e.: [/path/to/the/audiofile.wav]")
             for line in f:
                 if line.find(parseSequence) != -1: #Checks if the Name segment is present in the current line
                     wordsOfLine = line[lengthOfParseSequence:].split("\t") #Seperates the timestamps by tabulator
@@ -142,19 +150,19 @@ class AcousticFeatureExtractor(object):
             # soundConverter.set_channels(1)
             fileHandle = soundConverter.export(wavAudioFile, format="wav")
             fileHandle.close()
-            print "Converted .mp3 to .wav for further processing"
+            logger.info("Converted .mp3 to .wav for further processing")
         else:
-            print "Found already converted .wav form of .mp3, for further processing"
+            logger.info("Found already converted .wav form of .mp3, for further processing")
         return wavAudioFile
 
     def cleanUp(self):
         if self.convertedAudioFiles: #checks if the List is empty
             for audioFile in self.convertedAudioFiles:
                 os.remove(audioFile)
-                print "Deleted temporary converted .wav file"
+                logger.info("Deleted temporary converted .wav file")
         if os.path.exists(self.slicesDir):
             rmtree(self.slicesDir)
-            print "Deleted all slices (of the original audio file)"
+            logger.info("Deleted all slices (of the original audio file)")
 
     def extractFeatures(self,inputFile):
         self.openSMILEsettings[1] = "-I " + inputFile
@@ -186,7 +194,7 @@ class AcousticFeatureExtractor(object):
                 self.convertedAudioFiles.append(audioFile)
             else:
                 copy2(audioFile,self.dataDir)
-                print "Moved a copy of audiofile (%s) to the data (working dir of the script)" %audioFile
+                logger.info("Moved a copy of audiofile (%s) to the data (working dir of the script)" %audioFile)
                 audioFile = self.dataDir + "/" + os.path.basename(audioFile)
             soundBuffer = AudioSegment.from_file(audioFile,format=audioFile[-3:])
 
@@ -207,6 +215,7 @@ class AcousticFeatureExtractor(object):
 
             start = time.time()     #Performance Measuere (Concatenating AudioSegments)
             #Slice the Audiofile in segments (slices)
+            performanceBuffer = 0   #Performance Measure (For exeMode = 3 adding up all extractiontimes)
             for i,singleSegment in enumerate(segmentTimeStamps):
                 tmpSoundSlice = soundBuffer[singleSegment[0]:singleSegment[1]]
                 if (not isFileOfFormat(pathConcatAudioFile,".wav",False) or self.OVERWRITE) and (not self.exeMode == 3):
@@ -217,36 +226,51 @@ class AcousticFeatureExtractor(object):
                 if self.exeMode == 3:
                     self.extractFeatures(tmpPathSoundSlice)
             end = time.time()       #Performance Measuere (Concatenating AudioSegments)
-            print (end -start)      #Performance Measuere (Concatenating AudioSegments)
+            self.perfConcatenating.append(end -start)
+            logger.info("Performance concatenating to one audiofile (1 Speaker): %s seconds" %str((end -start)))      #Performance Measuere (Concatenating AudioSegments)
 
             if not isFileOfFormat(pathConcatAudioFile,".wav") or self.OVERWRITE:
-                print "Creating one audio file containing only: [%s]" % self.SPEAKER
+                logger.info("Creating one audio file containing only: [%s]" % self.SPEAKER)
                 fileHandle = concatAudioFile.export(pathConcatAudioFile, format="wav")
                 fileHandle.close()
             if not self.exeMode == 3:
-                print "Initializing feature extraction based on the file\n\t:\'%s\'" %pathConcatAudioFile
+                logger.info("Initializing feature extraction based on the file\n\t:\'%s\'" %pathConcatAudioFile)
                 start = time.time()     #Performance Matters
                 self.extractFeatures(pathConcatAudioFile)
                 end = time.time()       #Performance Matters
-                print (end -start)      #Performance Matters
+                self.perfFtExtraction.append(end -start)
+                logger.info("Performance extracting features: %s seconds" %str((end -start)))      #Performance Matters
 
 
     def executeFtExtraction(self):
-        for singleSegmentFile in self.segmentFiles:
-            start = time.time()                                                         #Performance Measure (single segmentfile)
+        for i,singleSegmentFile in enumerate(self.segmentFiles):
+            print i
+            logger.info("=======================================================================")
+            logger.info("\t\tProcessing the [%s] segmentfile:" %str(i+1).zfill(2))
+            logger.info(singleSegmentFile)
+            logger.info("=======================================================================")
+            start = time.time()                                                                               #Performance Measure (single segmentfile)
             self.getSpeechOfOneSpeaker(singleSegmentFile)
-            end = time.time()                                                               #Performance Measure (single segmentfile)
+            end = time.time()                                                                                 #Performance Measure (single segmentfile)
             self.executionTime4oneSegmentFile.append([singleSegmentFile,str(end -start)])                     #Performance Measure (single segmentfile)
-            print "Execution of file (%s) in %s" % (singleSegmentFile,str(end -start))  #Performance Measure (single segmentfile)
+            logger.info("Execution of file (%s) in %s seconds" % (singleSegmentFile,str(end -start)))               #Performance Measure (single segmentfile)
+
     def showPerformance(self):
         #TODO: Add Performance Meassures for: Rendering of the "1 Speaker Audio File" and Konvertierung
         if self.exeMode != 0:
-            print "===================" + bcolors.HEADER + "Performance / Segmentfile" + bcolors.ENDC + "==========================="
-            for perf in self.executionTime4oneSegmentFile:
-                print "Performance (in ms) for: \t" + perf[0]
-                print "Complete Execution: \t\t" + bcolors.OKGREEN + str(perf[1]) + bcolors.ENDC
+            logger.info("===================" + bcolors.HEADER + "Performance / Segmentfile" + bcolors.ENDC + "===========================")
+            if self.exeMode != 3:
+                for perf,perfFt,perfConc in zip(self.executionTime4oneSegmentFile,self.perfFtExtraction,self.perfConcatenating):
+                    logger.info("Performance for: \t\t" + perf[0])
+                    logger.info("Feature extraction (in s): \t" + str(perfFt))
+                    logger.info("Concatenating (in s): \t\t" + str(perfConc))
+                    logger.info("Complete Execution (in s): \t" + bcolors.OKGREEN + str(perf[1]) + bcolors.ENDC)
+                    logger.info(" ")
+            else: #in exeMode 3 no concatenating happens, instaed concatenating PF is replaced by feature extraction time
+                for perf,perfConc in zip(self.executionTime4oneSegmentFile,self.perfConcatenating):
+                    logger.info("Performance for: \t\t" + perf[0])
+                    logger.info("Feature extraction (in s): \t" + str(perfConc))
+                    logger.info("Complete Execution (in s): \t" + bcolors.OKGREEN + str(perf[1]) + bcolors.ENDC)
+                    logger.info(" ")
             print "======================================================================="
-    '''TODO: Delete of the DebugTestfunction'''
-    def testLogger(self):
-        print "testLogger:"
 #=======================END OF CLASS===========================================
